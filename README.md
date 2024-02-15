@@ -1,6 +1,6 @@
-# univtime
+# UnivTime
 
-A new Flutter project.
+A mobile application that aims to address the time-clashing issues students face while registering for courses in university.
 
 ## Getting Started
 
