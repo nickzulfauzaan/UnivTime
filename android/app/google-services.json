@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "204543538042",
+    "project_id": "univtime-5c468",
+    "storage_bucket": "univtime-5c468.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204543538042:android:b3993ffb9a5dec462cdcc3",
+        "android_client_info": {
+          "package_name": "com.example.univtime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204543538042-kmv2eupisptb4j0gd506f8dbrhdl58ku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDBSb0LiqP43y7cgSPvJrSK3oVuyJwOeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204543538042-2elvduf1k98m3f0qong695engldg35b3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

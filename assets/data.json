@@ -1,0 +1,2192 @@
+{
+  "data_set": {
+    "Artificial Intelligence": {
+      "WID3006": {
+        "K_T": {
+          "COURSE_TITLE": "MACHINE LEARNING",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 3 - 6 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "AQMS",
+          "STUDENTS": 6
+        }
+      },
+      "WID3007": {
+        "K": {
+          "COURSE_TITLE": "FUZZY LOGIC",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 2 - 4 pm",
+          "LOKASI": "DK1",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "LIM",
+          "STUDENTS": 91
+        },
+        "T1": {
+          "COURSE_TITLE": "FUZZY LOGIC",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Selasa: 11 - 12 pm",
+          "LOKASI": "MM6",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "LIM",
+          "STUDENTS": 45
+        },
+        "T2": {
+          "COURSE_TITLE": "FUZZY LOGIC",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Selasa: 12 -1 pm",
+          "LOKASI": "MM6",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "LIM",
+          "STUDENTS": 46
+        }
+      },
+      "WID3008": {
+        "K": {
+          "COURSE_TITLE": "IMAGE PROCESSING",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 11 - 1pm",
+          "LOKASI": "DK1",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "NRJ",
+          "STUDENTS": 71
+        },
+        "T1": {
+          "COURSE_TITLE": "IMAGE PROCESSING",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Selasa: 2 - 3 pm",
+          "LOKASI": "MM6",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "NRJ",
+          "STUDENTS": 45
+        },
+        "T2": {
+          "COURSE_TITLE": "IMAGE PROCESSING",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Selasa: 3 -4 pm",
+          "LOKASI": "MM6",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "NRJ",
+          "STUDENTS": 26
+        }
+      },
+      "WID3009": {
+        "K": {
+          "COURSE_TITLE": "ARITIFICIAL INTELLIGENCE GAME PROGRAMMING",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Jumaat: 10 - 12 pm",
+          "LOKASI": "DK1",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "LWS",
+          "STUDENTS": 75
+        },
+        "T1": {
+          "COURSE_TITLE": "ARITIFICIAL INTELLIGENCE GAME PROGRAMMING",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 12 - 1 pm",
+          "LOKASI": "MM6",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "LWS",
+          "STUDENTS": 31
+        },
+        "T2": {
+          "COURSE_TITLE": "ARITIFICIAL INTELLIGENCE GAME PROGRAMMING",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 1 - 2 pm",
+          "LOKASI": "MM6",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "LWS",
+          "STUDENTS": 44
+        }
+      },
+      "WID3011": {
+        "K": {
+          "COURSE_TITLE": "DEEP LEARNING",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 2 - 4 pm",
+          "LOKASI": "BK2",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "Dr. Amarachukwu Felix Ebubeogu",
+          "STUDENTS": 23
+        },
+        "T": {
+          "COURSE_TITLE": "DEEP LEARNING",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 4 - 5 pm",
+          "LOKASI": "MM6",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "Hamza",
+          "STUDENTS": 23
+        }
+      },
+      "WID3014": {
+        "K_T": {
+          "COURSE_TITLE": "PRATICAL AI",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 9 - 12 pm",
+          "LOKASI": "MM6",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "PM Dr. Afizan Azman",
+          "STUDENTS": 15
+        }
+      }
+    },
+    "Computer System and Technology": {
+      "WIC2004": {
+        "K": {
+          "COURSE_TITLE": "INTERNET TECHNOLOGY",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 9 - 11 am",
+          "LOKASI": "DK2",
+          "KUMPULAN_KULIAH": "DS: 43",
+          "LECTURER": "F0",
+          "STUDENTS": 20
+        },
+        "T": {
+          "COURSE_TITLE": "INTERNET TECHNOLOGY",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Jumaat: 11 - 12 pm",
+          "LOKASI": "DK2",
+          "KUMPULAN_KULIAH": "DS: 43",
+          "LECTURER": "F0",
+          "STUDENTS": 20
+        }
+      },
+      "WIC3002": {
+        "K": {
+          "COURSE_TITLE": "CRYPTOGRAPHY",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 4 - 6 pm",
+          "LOKASI": "MM6",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "PLY",
+          "STUDENTS": 45
+        },
+        "T": {
+          "COURSE_TITLE": "CRYPTOGRAPHY",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 12 - 1 pm",
+          "LOKASI": "MM1",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "PLY",
+          "STUDENTS": 45
+        }
+      },
+      "WIC3005": {
+        "K_T": {
+          "COURSE_TITLE": "ENTERPRISE NETWORK DESIGN AND MANAGEMENT",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 9 - 12 pm",
+          "LOKASI": "CCNA",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "LTC",
+          "STUDENTS": 15
+        }
+      },
+      "WIC3006": {
+        "K_T": {
+          "COURSE_TITLE": "MOBILE COMPUTING",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Selasa: 3 - 6 pm",
+          "LOKASI": "MM1",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "RMN",
+          "STUDENTS": 52
+        }
+      },
+      "WIC3007": {
+        "K": {
+          "COURSE_TITLE": "PRINCIPLES OF DISTRIBUTED SYSTEMS",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 9 - 11 am",
+          "LOKASI": "MS",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "LCS",
+          "STUDENTS": 41
+        },
+        "T": {
+          "COURSE_TITLE": "PRINCIPLES OF DISTRIBUTED SYSTEMS",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 4 - 5 pm",
+          "LOKASI": "MS",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "LCS",
+          "STUDENTS": 41
+        }
+      },
+      "WIC3009": {
+        "K": {
+          "COURSE_TITLE": "PARALLEL PROGRAMMING",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 12 - 2 pm",
+          "LOKASI": "MS",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "SRA",
+          "STUDENTS": 32
+        },
+        "T": {
+          "COURSE_TITLE": "PARALLEL PROGRAMMING",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 2 - 3 pm",
+          "LOKASI": "MM6",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "SRA",
+          "STUDENTS": 32
+        }
+      }
+    },
+    "FYP and Industrial Training": {
+      "WIA3001": {
+        "K_T": {
+          "COURSE_TITLE": "INDUSTRIAL TRAINING",
+          "CREDITS": 12,
+          "JADUAL_WAKTU": "N/A",
+          "LECTURER": "HWL",
+          "STUDENTS": 219
+        }
+      },
+      "WIA3002": {
+        "K_T": {
+          "COURSE_TITLE": "ACADEMIC PROJECT I",
+          "CREDITS": 2,
+          "JADUAL_WAKTU": "N/A",
+          "LECTURER": "HZ",
+          "STUDENTS": 39
+        }
+      },
+      "WIA3003": {
+        "K_T": {
+          "COURSE_TITLE": "ACADEMIC PROJECT II",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "N/A",
+          "LECTURER": "HZ",
+          "STUDENTS": 281
+        }
+      }
+    },
+    "Faculty Core Courses": {
+      "WIX1001": {
+        "K1": {
+          "COURSE_TITLE": "COMPUTING MATHEMATICS I\n (Coordinator: SJO)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 12 - 2 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "ER",
+          "LOKASI": "DK1",
+          "STUDENTS": 482
+        },
+        "K2": {
+          "COURSE_TITLE": "COMPUTING MATHEMATICS I\n (Coordinator: SJO)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 12 - 2 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "SJO",
+          "LOKASI": "DK2",
+          "STUDENTS": 482
+        },
+        "T1": {
+          "COURSE_TITLE": "COMPUTING MATHEMATICS I\n (Coordinator: SJO)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 11 - 12 pm",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "ER",
+          "LOKASI": "BK1",
+          "STUDENTS": 64
+        },
+        "T10": {
+          "COURSE_TITLE": "COMPUTING MATHEMATICS I\n (Coordinator: SJO)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 10 - 11 am",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "MSS",
+          "LOKASI": "BK2",
+          "STUDENTS": 40
+        },
+        "T2": {
+          "COURSE_TITLE": "COMPUTING MATHEMATICS I\n (Coordinator: SJO)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 9 - 10 am",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "SJO",
+          "LOKASI": "BT1",
+          "STUDENTS": 25
+        },
+        "T3": {
+          "COURSE_TITLE": "COMPUTING MATHEMATICS I\n (Coordinator: SJO)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 11 -12 pm",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "MSS",
+          "LOKASI": "BK2",
+          "STUDENTS": 40
+        },
+        "T4": {
+          "COURSE_TITLE": "COMPUTING MATHEMATICS I\n (Coordinator: SJO)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 10 - 11 am",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "LWS",
+          "LOKASI": "BK1",
+          "STUDENTS": 65
+        },
+        "T5": {
+          "COURSE_TITLE": "COMPUTING MATHEMATICS I\n (Coordinator: SJO)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 10 - 11 am",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "SJO",
+          "LOKASI": "BT1",
+          "STUDENTS": 25
+        },
+        "T6": {
+          "COURSE_TITLE": "COMPUTING MATHEMATICS I\n (Coordinator: SJO)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 12 - 1 pm",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "SJO",
+          "LOKASI": "BK1",
+          "STUDENTS": 65
+        },
+        "T7": {
+          "COURSE_TITLE": "COMPUTING MATHEMATICS I\n (Coordinator: SJO)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 1 - 2 pm",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "MSS",
+          "LOKASI": "BK1",
+          "STUDENTS": 65
+        },
+        "T8": {
+          "COURSE_TITLE": "COMPUTING MATHEMATICS I\n (Coordinator: SJO)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 1 - 2 pm",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "LWS",
+          "LOKASI": "BT1",
+          "STUDENTS": 28
+        },
+        "T9": {
+          "COURSE_TITLE": "COMPUTING MATHEMATICS I\n (Coordinator: SJO)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 2 - 3 pm",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "SJO",
+          "LOKASI": "BK1",
+          "STUDENTS": 65
+        }
+      },
+      "WIX1002": {
+        "K1": {
+          "COURSE_TITLE": "FUNDAMENTALS OF PROGRAMMING\n (Coordinator: SSN)",
+          "CREDITS": 5,
+          "JADUAL_WAKTU": "Isnin: 9 - 11 am",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "SSN",
+          "LOKASI": "DK1",
+          "STUDENTS": 469
+        },
+        "K2": {
+          "COURSE_TITLE": "FUNDAMENTALS OF PROGRAMMING\n (Coordinator: SSN)",
+          "CREDITS": 5,
+          "JADUAL_WAKTU": "Isnin: 9 - 11 am",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "BIK",
+          "LOKASI": "DK2",
+          "STUDENTS": 469
+        },
+        "T1": {
+          "COURSE_TITLE": "FUNDAMENTALS OF PROGRAMMING\n (Coordinator: SSN)",
+          "CREDITS": 5,
+          "JADUAL_WAKTU": "Khamis: 10 - 1 pm",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "MNA",
+          "LOKASI": "MM3",
+          "STUDENTS": 60
+        },
+        "T10": {
+          "COURSE_TITLE": "FUNDAMENTALS OF PROGRAMMING\n (Coordinator: SSN)",
+          "CREDITS": 5,
+          "JADUAL_WAKTU": "Jumaat: 3 - 6 pm",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "LIM",
+          "LOKASI": "MS",
+          "STUDENTS": 40
+        },
+        "T2": {
+          "COURSE_TITLE": "FUNDAMENTALS OF PROGRAMMING\n (Coordinator: SSN)",
+          "CREDITS": 5,
+          "JADUAL_WAKTU": "Rabu: 3 - 6 pm",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "NBA",
+          "LOKASI": "MM4",
+          "STUDENTS": 58
+        },
+        "T3": {
+          "COURSE_TITLE": "FUNDAMENTALS OF PROGRAMMING\n (Coordinator: SSN)",
+          "CREDITS": 5,
+          "JADUAL_WAKTU": "Rabu: 3 - 6 pm",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "UO",
+          "LOKASI": "MM2",
+          "STUDENTS": 28
+        },
+        "T4": {
+          "COURSE_TITLE": "FUNDAMENTALS OF PROGRAMMING\n (Coordinator: SSN)",
+          "CREDITS": 5,
+          "JADUAL_WAKTU": "Selasa: 4 - 7 pm",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "BIK",
+          "LOKASI": "MM6",
+          "STUDENTS": 60
+        },
+        "T5": {
+          "COURSE_TITLE": "FUNDAMENTALS OF PROGRAMMING\n (Coordinator: SSN)",
+          "CREDITS": 5,
+          "JADUAL_WAKTU": "Khamis: 3 - 6 pm",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "BIK",
+          "LOKASI": "MM3",
+          "STUDENTS": 60
+        },
+        "T6": {
+          "COURSE_TITLE": "FUNDAMENTALS OF PROGRAMMING\n (Coordinator: SSN)",
+          "CREDITS": 5,
+          "JADUAL_WAKTU": "Khamis: 3 - 6 pm",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "MNA",
+          "LOKASI": "MM1",
+          "STUDENTS": 49
+        },
+        "T7": {
+          "COURSE_TITLE": "FUNDAMENTALS OF PROGRAMMING\n (Coordinator: SSN)",
+          "CREDITS": 5,
+          "JADUAL_WAKTU": "Khamis: 10 - 1 pm",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "UO",
+          "LOKASI": "MM6",
+          "STUDENTS": 45
+        },
+        "T8": {
+          "COURSE_TITLE": "FUNDAMENTALS OF PROGRAMMING\n (Coordinator: SSN)",
+          "CREDITS": 5,
+          "JADUAL_WAKTU": "Jumaat: 9 - 12 pm",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "BIK",
+          "LOKASI": "MM2",
+          "STUDENTS": 33
+        },
+        "T9": {
+          "COURSE_TITLE": "FUNDAMENTALS OF PROGRAMMING\n (Coordinator: SSN)",
+          "CREDITS": 5,
+          "JADUAL_WAKTU": "Khamis: 9 - 12 pm",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "LIM",
+          "LOKASI": "MM2",
+          "STUDENTS": 36
+        }
+      },
+      "WIX1003": {
+        "K1": {
+          "COURSE_TITLE": "COMPUTER SYSTEM AND ORGANIZATION\n (Coordinator: TKS)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Selasa: 10 - 12 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "NMN",
+          "LOKASI": "DK1",
+          "STUDENTS": 459
+        },
+        "K2": {
+          "COURSE_TITLE": "COMPUTER SYSTEM AND ORGANIZATION\n (Coordinator: TKS)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Selasa: 10 - 12 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "TKS",
+          "LOKASI": "DK2",
+          "STUDENTS": 459
+        },
+        "T1": {
+          "COURSE_TITLE": "COMPUTER SYSTEM AND ORGANIZATION\n (Coordinator: TKS)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 1 - 2 pm",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "NMN",
+          "LOKASI": "MM3",
+          "STUDENTS": 65
+        },
+        "T10": {
+          "COURSE_TITLE": "COMPUTER SYSTEM AND ORGANIZATION\n (Coordinator: TKS)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 3 - 4 pm",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "EMT",
+          "LOKASI": "MS",
+          "STUDENTS": 40
+        },
+        "T2": {
+          "COURSE_TITLE": "COMPUTER SYSTEM AND ORGANIZATION\n (Coordinator: TKS)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 1 - 2 pm",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "EMT",
+          "LOKASI": "ML",
+          "STUDENTS": 33
+        },
+        "T3": {
+          "COURSE_TITLE": "COMPUTER SYSTEM AND ORGANIZATION\n (Coordinator: TKS)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Jumaat: 10 - 11 am",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "BRPJ",
+          "LOKASI": "MM6",
+          "STUDENTS": 42
+        },
+        "T4": {
+          "COURSE_TITLE": "COMPUTER SYSTEM AND ORGANIZATION\n (Coordinator: TKS)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 2 - 3 pm",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "NMN",
+          "LOKASI": "MM3",
+          "STUDENTS": 64
+        },
+        "T5": {
+          "COURSE_TITLE": "COMPUTER SYSTEM AND ORGANIZATION\n (Coordinator: TKS)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 2 - 3 pm",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "EMT",
+          "LOKASI": "ML",
+          "STUDENTS": 33
+        },
+        "T6": {
+          "COURSE_TITLE": "COMPUTER SYSTEM AND ORGANIZATION\n (Coordinator: TKS)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 1 - 2 pm",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "TKS",
+          "LOKASI": "MM1",
+          "STUDENTS": 49
+        },
+        "T7": {
+          "COURSE_TITLE": "COMPUTER SYSTEM AND ORGANIZATION\n (Coordinator: TKS)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Jumaat: 11 - 12 pm",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "BRPJ",
+          "LOKASI": "MM6",
+          "STUDENTS": 44
+        },
+        "T8": {
+          "COURSE_TITLE": "COMPUTER SYSTEM AND ORGANIZATION\n (Coordinator: TKS)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 2 - 3 pm",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "EMT",
+          "LOKASI": "MS",
+          "STUDENTS": 39
+        },
+        "T9": {
+          "COURSE_TITLE": "COMPUTER SYSTEM AND ORGANIZATION\n (Coordinator: TKS)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 2 - 3 pm",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "TKS",
+          "LOKASI": "MM1",
+          "STUDENTS": 50
+        }
+      },
+      "WIX2001": {
+        "K1": {
+          "COURSE_TITLE": "THINKING AND COMMUNICATION SKILLS\n (Coordinator: RM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 10 - 12 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "RM",
+          "LOKASI": "BK1",
+          "STUDENTS": 18
+        },
+        "K2": {
+          "COURSE_TITLE": "THINKING AND COMMUNICATION SKILLS\n (Coordinator: RM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 10 - 12 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "HZ",
+          "LOKASI": "BK2",
+          "STUDENTS": 39
+        },
+        "K3": {
+          "COURSE_TITLE": "THINKING AND COMMUNICATION SKILLS\n (Coordinator: RM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 10 - 1 pm",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "MIS",
+          "LOKASI": "BT1",
+          "STUDENTS": 22
+        },
+        "K4": {
+          "COURSE_TITLE": "THINKING AND COMMUNICATION SKILLS\n (Coordinator: RM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 10 - 12 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "NH",
+          "LOKASI": "BT2",
+          "STUDENTS": 14
+        },
+        "K5": {
+          "COURSE_TITLE": "THINKING AND COMMUNICATION SKILLS\n (Coordinator: RM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Selasa: 12 - 2 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "HZ",
+          "LOKASI": "BK2",
+          "STUDENTS": 25
+        },
+        "K6": {
+          "COURSE_TITLE": "THINKING AND COMMUNICATION SKILLS\n (Coordinator: RM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 3 - 6 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "MIS",
+          "LOKASI": "DK2",
+          "STUDENTS": 65
+        },
+        "K7": {
+          "COURSE_TITLE": "THINKING AND COMMUNICATION SKILLS\n (Coordinator: RM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Selasa: 12 - 2 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "NH",
+          "LOKASI": "BK1",
+          "STUDENTS": 65
+        },
+        "K8": {
+          "COURSE_TITLE": "THINKING AND COMMUNICATION SKILLS\n (Coordinator: RM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Selasa: 10 - 12 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "UO",
+          "LOKASI": "BK2",
+          "STUDENTS": 11
+        },
+        "K9": {
+          "COURSE_TITLE": "THINKING AND COMMUNICATION SKILLS\n (Coordinator: RM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Selasa: 10 - 12 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "HZM",
+          "LOKASI": "BK1",
+          "STUDENTS": 39
+        },
+        "T1": {
+          "COURSE_TITLE": "THINKING AND COMMUNICATION SKILLS\n (Coordinator: RM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 4 - 5 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "RM",
+          "LOKASI": "BK1",
+          "STUDENTS": 18
+        },
+        "T2": {
+          "COURSE_TITLE": "THINKING AND COMMUNICATION SKILLS\n (Coordinator: RM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 2 - 3 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "HZ",
+          "LOKASI": "BK2",
+          "STUDENTS": 39
+        },
+        "T3": {
+          "COURSE_TITLE": "THINKING AND COMMUNICATION SKILLS\n (Coordinator: RM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 10 - 1 pm",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "MIS",
+          "LOKASI": "BT1",
+          "STUDENTS": 22
+        },
+        "T4": {
+          "COURSE_TITLE": "THINKING AND COMMUNICATION SKILLS\n (Coordinator: RM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 1 - 2 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "NH",
+          "LOKASI": "BT2",
+          "STUDENTS": 14
+        },
+        "T5": {
+          "COURSE_TITLE": "THINKING AND COMMUNICATION SKILLS\n (Coordinator: RM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 3 - 4 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "HZ",
+          "LOKASI": "BK2",
+          "STUDENTS": 25
+        },
+        "T6": {
+          "COURSE_TITLE": "THINKING AND COMMUNICATION SKILLS\n (Coordinator: RM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 3 - 6 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "MIS",
+          "LOKASI": "DK2",
+          "STUDENTS": 65
+        },
+        "T7": {
+          "COURSE_TITLE": "THINKING AND COMMUNICATION SKILLS\n (Coordinator: RM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 3 - 4 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "NH",
+          "LOKASI": "BK1",
+          "STUDENTS": 65
+        },
+        "T8": {
+          "COURSE_TITLE": "THINKING AND COMMUNICATION SKILLS\n (Coordinator: RM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 3 - 4 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "UO",
+          "LOKASI": "BK2",
+          "STUDENTS": 11
+        },
+        "T9": {
+          "COURSE_TITLE": "THINKING AND COMMUNICATION SKILLS\n (Coordinator: RM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 12 - 1 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "HZM",
+          "LOKASI": "BK1",
+          "STUDENTS": 39
+        }
+      },
+      "WIX2002": {
+        "K1": {
+          "COURSE_TITLE": "PROJECT MANAGEMENT\n (Coordinator: HSM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 4 - 6 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "HSM",
+          "LOKASI": "DK1",
+          "STUDENTS": 355
+        },
+        "K2": {
+          "COURSE_TITLE": "PROJECT MANAGEMENT\n (Coordinator: HSM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 4 - 6 pm",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "RA",
+          "LOKASI": "DK2",
+          "STUDENTS": 355
+        },
+        "T1": {
+          "COURSE_TITLE": "PROJECT MANAGEMENT\n (Coordinator: HSM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 3 - 4 pm",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "HSM",
+          "LOKASI": "BK1",
+          "STUDENTS": 59
+        },
+        "T2": {
+          "COURSE_TITLE": "PROJECT MANAGEMENT\n (Coordinator: HSM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 9 - 10 am",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "CYK",
+          "LOKASI": "BK1",
+          "STUDENTS": 50
+        },
+        "T3": {
+          "COURSE_TITLE": "PROJECT MANAGEMENT\n (Coordinator: HSM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 4 - 5 pm",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "HSM",
+          "LOKASI": "BK2",
+          "STUDENTS": 40
+        },
+        "T4": {
+          "COURSE_TITLE": "PROJECT MANAGEMENT\n (Coordinator: HSM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 10 - 11 am",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "CYK",
+          "LOKASI": "BK1",
+          "STUDENTS": 53
+        },
+        "T5": {
+          "COURSE_TITLE": "PROJECT MANAGEMENT\n (Coordinator: HSM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 10 - 11 am",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "RA",
+          "LOKASI": "MS",
+          "STUDENTS": 40
+        },
+        "T6": {
+          "COURSE_TITLE": "PROJECT MANAGEMENT\n (Coordinator: HSM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 12 - 1 pm",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "CYK",
+          "LOKASI": "BT1",
+          "STUDENTS": 24
+        },
+        "T7": {
+          "COURSE_TITLE": "PROJECT MANAGEMENT\n (Coordinator: HSM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 11 - 12 pm",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "RA",
+          "LOKASI": "BK1",
+          "STUDENTS": 39
+        },
+        "T8": {
+          "COURSE_TITLE": "PROJECT MANAGEMENT\n (Coordinator: HSM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 1 - 2 pm",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "CYK",
+          "LOKASI": "BT1",
+          "STUDENTS": 20
+        },
+        "T9": {
+          "COURSE_TITLE": "PROJECT MANAGEMENT\n (Coordinator: HSM)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 1 - 2 pm",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "RA",
+          "LOKASI": "BK2",
+          "STUDENTS": 30
+        }
+      }
+    },
+    "Faculty Elective Courses": {
+      "WIX3002": {
+        "K1": {
+          "COURSE_TITLE": "SOCIAL INFORMATICS (Coordinator: KD)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 12 - 2 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "KD",
+          "LOKASI": "DK1",
+          "STUDENTS": 71
+        },
+        "T1": {
+          "COURSE_TITLE": "SOCIAL INFORMATICS (Coordinator: KD)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Jumaat: 3 - 4 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "KD",
+          "LOKASI": "BK1",
+          "STUDENTS": 30
+        },
+        "T2": {
+          "COURSE_TITLE": "SOCIAL INFORMATICS (Coordinator: KD)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 1 - 2 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "Hamza",
+          "LOKASI": "BK",
+          "STUDENTS": 35
+        },
+        "T3": {
+          "COURSE_TITLE": "SOCIAL INFORMATICS (Coordinator: KD)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Jumaat: 3 - 4 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "Hamza",
+          "LOKASI": "BK2",
+          "STUDENTS": 6
+        }
+      },
+      "WIX3003": {
+        "K_T": {
+          "COURSE_TITLE": "INFORMATION SECURITY MANAGEMENT AND ETHICS\n (Coordinator: NAG)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 12 - 3 pm",
+          "KUMPULAN_KULIAH": "Khas untuk pelajar SMPITM (API)",
+          "LECTURER": "NAG",
+          "LOKASI": "DK2",
+          "STUDENTS": 14
+        }
+      },
+      "WIX3004": {
+        "K1": {
+          "COURSE_TITLE": "MOBILE APPS DEVELOPMENT\n (Coordinator: CTK)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 4 - 6 pm",
+          "KUMPULAN_KULIAH": "Khas untuk pelajar SMPITM (API)",
+          "LECTURER": "CTK",
+          "LOKASI": "DK2",
+          "STUDENTS": 13
+        },
+        "T1": {
+          "COURSE_TITLE": "MOBILE APPS DEVELOPMENT\n (Coordinator: CTK)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Selasa: 2 - 4 pm",
+          "KUMPULAN_KULIAH": "Khas untuk pelajar SMPITM (API)",
+          "LECTURER": "HZM",
+          "LOKASI": "MM3",
+          "STUDENTS": 13
+        }
+      },
+      "WIX3005": {
+        "K1": {
+          "COURSE_TITLE": "DIGITAL CINEMATOGRAPHY\n (Coordinator: NH)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 2 - 4 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "HZ",
+          "LOKASI": "MM3",
+          "STUDENTS": 70
+        },
+        "K2": {
+          "COURSE_TITLE": "DIGITAL CINEMATOGRAPHY\n (Coordinator: NH)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 3 - 6 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "MIS",
+          "LOKASI": "BK1",
+          "STUDENTS": 72
+        },
+        "K3": {
+          "COURSE_TITLE": "DIGITAL CINEMATOGRAPHY\n (Coordinator: NH)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 2 - 4 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "NH",
+          "LOKASI": "MM4",
+          "STUDENTS": 70
+        },
+        "T1": {
+          "COURSE_TITLE": "DIGITAL CINEMATOGRAPHY\n (Coordinator: NH)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 10 - 11 am",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "HZ",
+          "LOKASI": "BK2",
+          "STUDENTS": 70
+        },
+        "T2": {
+          "COURSE_TITLE": "DIGITAL CINEMATOGRAPHY\n (Coordinator: NH)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 3 - 6 pm",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "MIS",
+          "LOKASI": "BK2",
+          "STUDENTS": 72
+        },
+        "T3": {
+          "COURSE_TITLE": "DIGITAL CINEMATOGRAPHY\n (Coordinator: NH)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 10 - 11 am",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "NH",
+          "LOKASI": "DK1",
+          "STUDENTS": 70
+        }
+      }
+    },
+    "Information Systems": {
+      "WIE3001": {
+        "K": {
+          "COURSE_TITLE": "ADVANCED DATABASE",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 10 - 12 pm",
+          "LOKASI": "MM3",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "NMS",
+          "STUDENTS": 23
+        },
+        "T": {
+          "COURSE_TITLE": "ADVANCED DATABASE",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 2 - 3 pm",
+          "LOKASI": "MM3",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "NMS",
+          "STUDENTS": 23
+        }
+      },
+      "WIE3007": {
+        "K": {
+          "COURSE_TITLE": "DATA MINING AND WAREHOUSING",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Selasa: 2 - 4 pm",
+          "LOKASI": "BK1",
+          "KUMPULAN_KULIAH": "DS: 43",
+          "LECTURER": "TYW",
+          "STUDENTS": 90
+        },
+        "T1": {
+          "COURSE_TITLE": "DATA MINING AND WAREHOUSING",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 4 - 5 pm",
+          "LOKASI": "MM3",
+          "KUMPULAN_KULIAH": "DS: 43",
+          "LECTURER": "TYW",
+          "STUDENTS": 45
+        },
+        "T2": {
+          "COURSE_TITLE": "DATA MINING AND WAREHOUSING",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 5 - 6 pm",
+          "LOKASI": "MM3",
+          "KUMPULAN_KULIAH": "DS: 43",
+          "LECTURER": "TYW",
+          "STUDENTS": 45
+        }
+      },
+      "WIE3008 (WIE3012)": {
+        "K": {
+          "COURSE_TITLE": "BUSINESS ANALYTICS AND INTELLIGENCE",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 11 - 1 pm",
+          "LOKASI": "DK2",
+          "KUMPULAN_KULIAH": "DS: 43",
+          "LECTURER": "NMS",
+          "STUDENTS": 83
+        },
+        "T1": {
+          "COURSE_TITLE": "BUSINESS ANALYTICS AND INTELLIGENCE",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 4 - 5 pm",
+          "LOKASI": "BK2",
+          "KUMPULAN_KULIAH": "DS: 43",
+          "LECTURER": "NMS",
+          "STUDENTS": 40
+        },
+        "T2": {
+          "COURSE_TITLE": "BUSINESS ANALYTICS AND INTELLIGENCE",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 5 - 6 pm",
+          "LOKASI": "BK2",
+          "KUMPULAN_KULIAH": "DS: 43",
+          "LECTURER": "NMS",
+          "STUDENTS": 43
+        }
+      },
+      "WIE3010": {
+        "K": {
+          "COURSE_TITLE": "DATA VISUALISATION",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 1 - 3 pm",
+          "LOKASI": "DK2",
+          "KUMPULAN_KULIAH": "DS: 43",
+          "LECTURER": "KD",
+          "STUDENTS": 91
+        },
+        "T1": {
+          "COURSE_TITLE": "DATA VISUALISATION",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Jumaat: 11 - 12 pm",
+          "LOKASI": "BK1",
+          "KUMPULAN_KULIAH": "DS: 43",
+          "LECTURER": "KD",
+          "STUDENTS": 50
+        },
+        "T2": {
+          "COURSE_TITLE": "DATA VISUALISATION",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Jumaat: 4 - 5pm",
+          "LOKASI": "BK1",
+          "KUMPULAN_KULIAH": "DS: 43",
+          "LECTURER": "KD",
+          "STUDENTS": 41
+        }
+      },
+      "WIH3001": {
+        "n_a": {
+          "COURSE_TITLE": "DATA SCIENCE PROJECT",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "N/A",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "VIM",
+          "STUDENTS": 42
+        }
+      },
+      "WIH3002": {
+        "n_a": {
+          "COURSE_TITLE": "DATA SCIENCE INDUSTRIAL TRAINING",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "N/A",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "HWL",
+          "STUDENTS": 6
+        }
+      },
+      "WIH3003": {
+        "K": {
+          "COURSE_TITLE": "BIG DATA APPLICATIONS AND ANALYTICS",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 2 - 4 pm",
+          "LOKASI": "MM1",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "RYZ",
+          "STUDENTS": 40
+        },
+        "T": {
+          "COURSE_TITLE": "BIG DATA APPLICATIONS AND ANALYTICS",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 4 - 5 pm",
+          "LOKASI": "MM1",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "RYZ",
+          "STUDENTS": 40
+        }
+      }
+    },
+    "Multimedia": {
+      "WIG3006": {
+        "K": {
+          "COURSE_TITLE": "DIGITAL VIDEO PROCESSING",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 10 - 12 pm",
+          "LOKASI": "ML",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "SP",
+          "STUDENTS": 30
+        },
+        "T": {
+          "COURSE_TITLE": "DIGITAL VIDEO PROCESSING",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 11 - 12 pm",
+          "LOKASI": "ML",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "SP",
+          "STUDENTS": 30
+        }
+      },
+      "WIG3007": {
+        "K": {
+          "COURSE_TITLE": "SPECIAL TOPICS IN MULTIMEDIA",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Selasa: 12 - 2 pm",
+          "LOKASI": "MM1",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "AK",
+          "STUDENTS": 30
+        },
+        "T": {
+          "COURSE_TITLE": "SPECIAL TOPICS IN MULTIMEDIA",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 3 - 4 pm",
+          "LOKASI": "ML",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "AK",
+          "STUDENTS": 30
+        }
+      },
+      "WIG3008": {
+        "K_T": {
+          "COURSE_TITLE": "MULTIMEDIA FORENSIC AND SECURITY",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 3 - 6 pm",
+          "LOKASI": "ML",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "AWAW",
+          "STUDENTS": 34
+        }
+      }
+    },
+    "Programme Core Courses": {
+      "WIA1001": {
+        "K": {
+          "COURSE_TITLE": "INFORMATION SYSTEM\n (Coordinator: SND)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Selasa: 12 - 2 pm",
+          "LOKASI": "DK2",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "SND",
+          "STUDENTS": 130
+        },
+        "T1": {
+          "COURSE_TITLE": "INFORMATION SYSTEM\n (Coordinator: SND)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 9 - 10 am",
+          "LOKASI": "BK1",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "SND",
+          "STUDENTS": 75
+        },
+        "T2": {
+          "COURSE_TITLE": "INFORMATION SYSTEM\n (Coordinator: SND)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 12 - 1 pm",
+          "LOKASI": "BK2",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "SND",
+          "STUDENTS": 55
+        }
+      },
+      "WIA1002 (WIB1002)": {
+        "K": {
+          "COURSE_TITLE": "DATA STRUCTURE\n (Coordinator: ZH)",
+          "CREDITS": 5,
+          "JADUAL_WAKTU": "Selasa: 12 - 2 pm",
+          "LOKASI": "DK2",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "ZH",
+          "STUDENTS": 177
+        },
+        "T1": {
+          "COURSE_TITLE": "DATA STRUCTURE\n (Coordinator: ZH)",
+          "CREDITS": 5,
+          "JADUAL_WAKTU": "Rabu: 12 - 3 pm",
+          "LOKASI": "MM4",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "ZH",
+          "STUDENTS": 59
+        },
+        "T2": {
+          "COURSE_TITLE": "DATA STRUCTURE\n (Coordinator: ZH)",
+          "CREDITS": 5,
+          "JADUAL_WAKTU": "Rabu: 10 - 1 pm",
+          "LOKASI": "ML",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "UO",
+          "STUDENTS": 15
+        },
+        "T3": {
+          "COURSE_TITLE": "DATA STRUCTURE\n (Coordinator: ZH)",
+          "CREDITS": 5,
+          "JADUAL_WAKTU": "Rabu: 3 - 6 pm",
+          "LOKASI": "MM1",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "LIM",
+          "STUDENTS": 51
+        },
+        "T4": {
+          "COURSE_TITLE": "DATA STRUCTURE\n (Coordinator: ZH)",
+          "CREDITS": 5,
+          "JADUAL_WAKTU": "Jumaat: 9 -12 pm",
+          "LOKASI": "MM3",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "HAMZA",
+          "STUDENTS": 52
+        }
+      },
+      "WIA1003": {
+        "K_T": {
+          "COURSE_TITLE": "COMPUTER SYSTEM ARCHITECTURE\n (Coordinator: IA)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 3 - 6 pm",
+          "LOKASI": "MM2",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "IA",
+          "STUDENTS": 18
+        }
+      },
+      "WIA1005": {
+        "K": {
+          "COURSE_TITLE": "NETWORK TECHNOLOGY FOUNDATION\n (Coordinator: MFZ)",
+          "CREDITS": 4,
+          "JADUAL_WAKTU": "Rabu: 1 - 3 pm",
+          "LOKASI": "CCNA",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "MFZ",
+          "STUDENTS": 24
+        },
+        "T": {
+          "COURSE_TITLE": "NETWORK TECHNOLOGY FOUNDATION\n (Coordinator: MFZ)",
+          "CREDITS": 4,
+          "JADUAL_WAKTU": "Jumaat: 3 - 5 pm",
+          "LOKASI": "CCNA",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "MFZ",
+          "STUDENTS": 24
+        }
+      },
+      "WIA1007": {
+        "K": {
+          "COURSE_TITLE": "INTRODUCTION TO DATA SCIENCE\n (Coordinator: MSS)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Selasa: 2 - 4 pm",
+          "LOKASI": "DK1",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "MSS",
+          "STUDENTS": 121
+        },
+        "T1": {
+          "COURSE_TITLE": "INTRODUCTION TO DATA SCIENCE\n (Coordinator: MSS)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 9 - 10 am",
+          "LOKASI": "BK2",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "MSS",
+          "STUDENTS": 40
+        },
+        "T2": {
+          "COURSE_TITLE": "INTRODUCTION TO DATA SCIENCE\n (Coordinator: MSS)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 1 -2 pm",
+          "LOKASI": "MS",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "SSAR",
+          "STUDENTS": 41
+        },
+        "T3": {
+          "COURSE_TITLE": "INTRODUCTION TO DATA SCIENCE\n (Coordinator: MSS)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 2 - 3 pm",
+          "LOKASI": "MS",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "SSAR",
+          "STUDENTS": 40
+        }
+      },
+      "WIA1008 (WIB1001)": {
+        "K_T": {
+          "COURSE_TITLE": "FUNDAMENTAL OF MULTIMEDIA\n (Coordinator: NF)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 3 - 6 pm",
+          "LOKASI": "MM6",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "NF",
+          "STUDENTS": 43
+        }
+      },
+      "WIA2001": {
+        "K1": {
+          "COURSE_TITLE": "DATABASE\n (Coordinator: MAI)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 2 - 4 pm",
+          "LOKASI": "DK1",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "MAI",
+          "STUDENTS": 384
+        },
+        "K2": {
+          "COURSE_TITLE": "DATABASE\n (Coordinator: MAI)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 2 - 4 pm",
+          "LOKASI": "DK2",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "NAG",
+          "STUDENTS": 384
+        },
+        "T1": {
+          "COURSE_TITLE": "DATABASE\n (Coordinator: MAI)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 12 - 1 pm",
+          "LOKASI": "MM3",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "MAI",
+          "STUDENTS": 50
+        },
+        "T2": {
+          "COURSE_TITLE": "DATABASE\n (Coordinator: MAI)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 1 - 2 pm",
+          "LOKASI": "MM3",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "MAI",
+          "STUDENTS": 49
+        },
+        "T3": {
+          "COURSE_TITLE": "DATABASE\n (Coordinator: MAI)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 3 - 4 pm",
+          "LOKASI": "MM3",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "MAI",
+          "STUDENTS": 39
+        },
+        "T4": {
+          "COURSE_TITLE": "DATABASE\n (Coordinator: MAI)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 2 - 3 pm",
+          "LOKASI": "MM1",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "SND",
+          "STUDENTS": 50
+        },
+        "T5": {
+          "COURSE_TITLE": "DATABASE\n (Coordinator: MAI)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 2 - 3 pm",
+          "LOKASI": "MM2",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "NAG",
+          "STUDENTS": 20
+        },
+        "T6": {
+          "COURSE_TITLE": "DATABASE\n (Coordinator: MAI)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 12 - 1 pm",
+          "LOKASI": "MM4",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "SND",
+          "STUDENTS": 60
+        },
+        "T7": {
+          "COURSE_TITLE": "DATABASE\n (Coordinator: MAI)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 12 - 1 pm",
+          "LOKASI": "MM1",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "NAG",
+          "STUDENTS": 45
+        },
+        "T8": {
+          "COURSE_TITLE": "DATABASE\n (Coordinator: MAI)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 1 - 2 pm",
+          "LOKASI": "MM4",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "SND",
+          "STUDENTS": 39
+        },
+        "T9": {
+          "COURSE_TITLE": "DATABASE\n (Coordinator: MAI)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 9 - 10 am",
+          "LOKASI": "MM6",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "SND",
+          "STUDENTS": 32
+        }
+      },
+      "WIA2002": {
+        "K": {
+          "COURSE_TITLE": "DATABASE\n (Coordinator: MAI)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Selasa: 2 - 4 pm",
+          "LOKASI": "DK2",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "HS",
+          "STUDENTS": 139
+        },
+        "T1": {
+          "COURSE_TITLE": "SOFTWARE MODELING\n (Coordinator: HS)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 10 - 11 am",
+          "LOKASI": "MM1",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "HS",
+          "STUDENTS": 30
+        },
+        "T2": {
+          "COURSE_TITLE": "SOFTWARE MODELING\n (Coordinator: HS)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 11 - 12 pm",
+          "LOKASI": "MM1",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "HS",
+          "STUDENTS": 49
+        },
+        "T3": {
+          "COURSE_TITLE": "SOFTWARE MODELING\n (Coordinator: HS)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 2 - 3 pm",
+          "LOKASI": "MM4",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "HS",
+          "STUDENTS": 60
+        }
+      },
+      "WIA2003 (WIB2003)": {
+        "K1": {
+          "COURSE_TITLE": "PROBABILITY AND STATISTICS\n (Coordinator: HWL)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 10 - 12 pm",
+          "LOKASI": "DK1",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "HWL",
+          "STUDENTS": 385
+        },
+        "K2": {
+          "COURSE_TITLE": "PROBABILITY AND STATISTICS\n (Coordinator: HWL)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 10 - 12 pm",
+          "LOKASI": "DK2",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "VIM",
+          "STUDENTS": 385
+        },
+        "T1": {
+          "COURSE_TITLE": "PROBABILITY AND STATISTICS\n (Coordinator: HWL)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 3 -4 pm",
+          "LOKASI": "MM6",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "HWL",
+          "STUDENTS": 45
+        },
+        "T10": {
+          "COURSE_TITLE": "PROBABILITY AND STATISTICS\n (Coordinator: HWL)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Jumaat: 4 - 5 pm",
+          "LOKASI": "MM6",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "TH",
+          "STUDENTS": 15
+        },
+        "T2": {
+          "COURSE_TITLE": "PROBABILITY AND STATISTICS\n (Coordinator: HWL)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 9 - 10 am",
+          "LOKASI": "MM1",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "HWL",
+          "STUDENTS": 50
+        },
+        "T3": {
+          "COURSE_TITLE": "PROBABILITY AND STATISTICS\n (Coordinator: HWL)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 1 - 2 pm",
+          "LOKASI": "MM6",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "HWL",
+          "STUDENTS": 45
+        },
+        "T4": {
+          "COURSE_TITLE": "PROBABILITY AND STATISTICS\n (Coordinator: HWL)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 12 - 1 pm",
+          "LOKASI": "ML",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "TH",
+          "STUDENTS": 30
+        },
+        "T5": {
+          "COURSE_TITLE": "PROBABILITY AND STATISTICS\n (Coordinator: HWL)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 3 - 4 pm",
+          "LOKASI": "MM4",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "TH",
+          "STUDENTS": 60
+        },
+        "T6": {
+          "COURSE_TITLE": "PROBABILITY AND STATISTICS\n (Coordinator: HWL)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 11 - 12 pm",
+          "LOKASI": "MS",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "VIM",
+          "STUDENTS": 40
+        },
+        "T7": {
+          "COURSE_TITLE": "PROBABILITY AND STATISTICS\n (Coordinator: HWL)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 12 - 1 pm",
+          "LOKASI": "MS",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "VIM",
+          "STUDENTS": 40
+        },
+        "T8": {
+          "COURSE_TITLE": "PROBABILITY AND STATISTICS\n (Coordinator: HWL)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Jumaat: 11 - 12 pm",
+          "LOKASI": "MM1",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "TH",
+          "STUDENTS": 35
+        },
+        "T9": {
+          "COURSE_TITLE": "PROBABILITY AND STATISTICS\n (Coordinator: HWL)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Jumaat: 3 - 4 pm",
+          "LOKASI": "MM6",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "TH",
+          "STUDENTS": 25
+        }
+      },
+      "WIA2006": {
+        "K1": {
+          "COURSE_TITLE": "SYSTEM ANALYSIS AND DESIGN\n (Coordinator: NF)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Selasa: 4 - 6 pm",
+          "LOKASI": "DK1",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "AK",
+          "STUDENTS": 239
+        },
+        "K2": {
+          "COURSE_TITLE": "SYSTEM ANALYSIS AND DESIGN\n (Coordinator: NF)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Selasa: 4 - 6 pm",
+          "LOKASI": "DK2",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "TH",
+          "STUDENTS": 239
+        },
+        "T1": {
+          "COURSE_TITLE": "SYSTEM ANALYSIS AND DESIGN\n (Coordinator: NF)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Jumaat: 3 - 4 pm",
+          "LOKASI": "MM3",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "AK",
+          "STUDENTS": 15
+        },
+        "T2": {
+          "COURSE_TITLE": "SYSTEM ANALYSIS AND DESIGN\n (Coordinator: NF)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 12 - 1 pm",
+          "LOKASI": "MM6",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "MNA",
+          "STUDENTS": 45
+        },
+        "T3": {
+          "COURSE_TITLE": "SYSTEM ANALYSIS AND DESIGN\n (Coordinator: NF)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 1 -2 pm",
+          "LOKASI": "MM6",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "MNA",
+          "STUDENTS": 45
+        },
+        "T4": {
+          "COURSE_TITLE": "SYSTEM ANALYSIS AND DESIGN\n (Coordinator: NF)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 10 - 11 am",
+          "LOKASI": "MM4",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "NF",
+          "STUDENTS": 41
+        },
+        "T5": {
+          "COURSE_TITLE": "SYSTEM ANALYSIS AND DESIGN\n (Coordinator: NF)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 11 - 12 pm",
+          "LOKASI": "MM4",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "NF",
+          "STUDENTS": 60
+        },
+        "T6": {
+          "COURSE_TITLE": "SYSTEM ANALYSIS AND DESIGN\n (Coordinator: NF)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 3 - 4 pm",
+          "LOKASI": "MS",
+          "KUMPULAN_KULIAH": "K2",
+          "LECTURER": "NF",
+          "STUDENTS": 33
+        }
+      },
+      "WIA2007 (WIX3004)": {
+        "K1": {
+          "COURSE_TITLE": "MOBILE APPS DEVELOPMENT\n (Coordinator: CTK)",
+          "CREDITS": 4,
+          "JADUAL_WAKTU": "Khamis: 4 - 6 pm",
+          "LOKASI": "DK1",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "OSY",
+          "STUDENTS": 267
+        },
+        "K2": {
+          "COURSE_TITLE": "MOBILE APPS DEVELOPMENT\n (Coordinator: CTK)",
+          "CREDITS": 4,
+          "JADUAL_WAKTU": "Khamis: 4 - 6 pm",
+          "LOKASI": "DK2",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "CTK",
+          "STUDENTS": 267
+        },
+        "T1": {
+          "COURSE_TITLE": "MOBILE APPS DEVELOPMENT\n (Coordinator: CTK)",
+          "CREDITS": 4,
+          "JADUAL_WAKTU": "Isnin: 12 - 2 pm",
+          "LOKASI": "MM4",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "OSY",
+          "STUDENTS": 58
+        },
+        "T2": {
+          "COURSE_TITLE": "MOBILE APPS DEVELOPMENT\n (Coordinator: CTK)",
+          "CREDITS": 4,
+          "JADUAL_WAKTU": "Isnin: 10 - 12 pm",
+          "LOKASI": "MM3",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "NMD",
+          "STUDENTS": 60
+        },
+        "T3": {
+          "COURSE_TITLE": "MOBILE APPS DEVELOPMENT\n (Coordinator: CTK)",
+          "CREDITS": 4,
+          "JADUAL_WAKTU": "Jumaat: 4 - 6 pm",
+          "LOKASI": "ML",
+          "KUMPULAN_KULIAH": "K1",
+          "LECTURER": "OSY",
+          "STUDENTS": 14
+        },
+        "T5": {
+          "COURSE_TITLE": "MOBILE APPS DEVELOPMENT\n (Coordinator: CTK)",
+          "CREDITS": 4,
+          "JADUAL_WAKTU": "Isnin: 12 - 2 pm",
+          "LOKASI": "MM3",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "CTK",
+          "STUDENTS": 37
+        },
+        "T6": {
+          "COURSE_TITLE": "MOBILE APPS DEVELOPMENT\n (Coordinator: CTK)",
+          "CREDITS": 4,
+          "JADUAL_WAKTU": "Isnin: 12 - 2 pm",
+          "LOKASI": "MM1",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "HZM",
+          "STUDENTS": 50
+        },
+        "T7": {
+          "COURSE_TITLE": "MOBILE APPS DEVELOPMENT\n (Coordinator: CTK)",
+          "CREDITS": 4,
+          "JADUAL_WAKTU": "Selasa: 2 - 4 pm",
+          "LOKASI": "MM3",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "HZM",
+          "STUDENTS": 48
+        }
+      },
+      "WIA2008": {
+        "K": {
+          "COURSE_TITLE": "ADVANCED NETWORK TECH\n (Coordinator: LTC)",
+          "CREDITS": 4,
+          "JADUAL_WAKTU": "Selasa: 9 - 11 am",
+          "LOKASI": "CCNA",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "LTC",
+          "STUDENTS": 36
+        },
+        "T1": {
+          "COURSE_TITLE": "ADVANCED NETWORK TECH\n (Coordinator: LTC)",
+          "CREDITS": 4,
+          "JADUAL_WAKTU": "Selasa: 12 - 2 pm",
+          "LOKASI": "CCNA",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "LTC",
+          "STUDENTS": 36
+        },
+        "T2": {
+          "COURSE_TITLE": "ADVANCED NETWORK TECH\n (Coordinator: LTC)",
+          "CREDITS": 4,
+          "JADUAL_WAKTU": "Selasa: 2 - 4 pm",
+          "LOKASI": "CCNA",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "LTC",
+          "STUDENTS": 36
+        }
+      },
+      "WIA2009 (WIC2003)": {
+        "K": {
+          "COURSE_TITLE": "DIGITAL DESIGN AND HARDWARE DESCRIPTION LANGUAGE\n (Coordinator: NMN)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 10 - 12 pm",
+          "LOKASI": "MM4",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "NMN",
+          "STUDENTS": 49
+        },
+        "T": {
+          "COURSE_TITLE": "DIGITAL DESIGN AND HARDWARE DESCRIPTION LANGUAGE\n (Coordinator: NMN)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 4 - 5 pm",
+          "LOKASI": "MM4",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "NMN",
+          "STUDENTS": 49
+        }
+      },
+      "WIA2010": {
+        "K": {
+          "COURSE_TITLE": "HUMAN COMPUTER INTERACTION\n (Coordinator: NJ)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 4 - 6 pm",
+          "LOKASI": "DK1",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "NJ",
+          "STUDENTS": 117
+        },
+        "T1": {
+          "COURSE_TITLE": "HUMAN COMPUTER INTERACTION\n (Coordinator: NJ)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 4 - 5 pm",
+          "LOKASI": "BK2",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "NJ",
+          "STUDENTS": 40
+        },
+        "T2": {
+          "COURSE_TITLE": "HUMAN COMPUTER INTERACTION\n (Coordinator: NJ)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 5 - 6 pm",
+          "LOKASI": "BK2",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "NJ",
+          "STUDENTS": 37
+        },
+        "T3": {
+          "COURSE_TITLE": "HUMAN COMPUTER INTERACTION\n (Coordinator: NJ)",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Selasa: 2 - 3 pm",
+          "LOKASI": "BK2",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "NJ",
+          "STUDENTS": 40
+        }
+      }
+    },
+    "Software Engineering": {
+      "WIF2002": {
+        "K_T": {
+          "COURSE_TITLE": "SOFTWARE REQUIREMENTS ENGINEERING",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 9 - 12 pm",
+          "LOKASI": "MM2",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "Dr. Hasrina Bakar",
+          "STUDENTS": 5
+        }
+      },
+      "WIF3005": {
+        "K": {
+          "COURSE_TITLE": "SOFTWARE MAINTENANCE AND EVOLUTION",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 4 - 6 pm",
+          "LOKASI": "BK1",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "NMD",
+          "STUDENTS": 77
+        },
+        "T1": {
+          "COURSE_TITLE": "SOFTWARE MAINTENANCE AND EVOLUTION",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Jumaat: 11 - 12 pm",
+          "LOKASI": "MS",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "NMD",
+          "STUDENTS": 40
+        },
+        "T2": {
+          "COURSE_TITLE": "SOFTWARE MAINTENANCE AND EVOLUTION",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Jumaat: 3 - 4 pm",
+          "LOKASI": "MM2",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "NMD",
+          "STUDENTS": 25
+        },
+        "T3": {
+          "COURSE_TITLE": "SOFTWARE MAINTENANCE AND EVOLUTION",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Jumaat: 4 - 5 pm",
+          "LOKASI": "MM2",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "NMD",
+          "STUDENTS": 12
+        }
+      },
+      "WIF3006": {
+        "K": {
+          "COURSE_TITLE": "COMPONENT BASED SOFTWARE ENGINEERING",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Isnin: 12 - 2 pm",
+          "LOKASI": "BK1",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "MB",
+          "STUDENTS": 86
+        },
+        "T1": {
+          "COURSE_TITLE": "COMPONENT BASED SOFTWARE ENGINEERING",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Selasa: 11 - 12 pm",
+          "LOKASI": "ML",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "MB",
+          "STUDENTS": 26
+        },
+        "T2": {
+          "COURSE_TITLE": "COMPONENT BASED SOFTWARE ENGINEERING",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Selasa: 1 - 2 pm",
+          "LOKASI": "ML",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "MB",
+          "STUDENTS": 30
+        },
+        "T3": {
+          "COURSE_TITLE": "COMPONENT BASED SOFTWARE ENGINEERING",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Selasa: 2 - 3 pm",
+          "LOKASI": "ML",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "MB",
+          "STUDENTS": 30
+        }
+      },
+      "WIF3007": {
+        "K": {
+          "COURSE_TITLE": "DESIGN PATTERNS",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Selasa: 4 - 6 pm",
+          "LOKASI": "BK1",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "SMT",
+          "STUDENTS": 74
+        },
+        "T1": {
+          "COURSE_TITLE": "DESIGN PATTERNS",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 9 - 10 am",
+          "LOKASI": "ML",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "SMT",
+          "STUDENTS": 14
+        },
+        "T2": {
+          "COURSE_TITLE": "DESIGN PATTERNS",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 10 - 11 am",
+          "LOKASI": "ML",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "SMT",
+          "STUDENTS": 30
+        },
+        "T3": {
+          "COURSE_TITLE": "DESIGN PATTERNS",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 1 - 2 pm",
+          "LOKASI": "MM2",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "SMT",
+          "STUDENTS": 30
+        }
+      },
+      "WIF3008": {
+        "K": {
+          "COURSE_TITLE": "REAL TIME SYSTEMS",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Rabu: 2 - 4 pm",
+          "LOKASI": "DK1",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "AAS",
+          "STUDENTS": 20
+        },
+        "T1": {
+          "COURSE_TITLE": "REAL TIME SYSTEMS",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 11 - 12 pm",
+          "LOKASI": "BK2",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "AAS",
+          "STUDENTS": 7
+        },
+        "T2": {
+          "COURSE_TITLE": "REAL TIME SYSTEMS",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 12 - 1 pm",
+          "LOKASI": "BK2",
+          "KUMPULAN_KULIAH": "N/A",
+          "LECTURER": "AAS",
+          "STUDENTS": 3
+        },
+        "T3": {
+          "COURSE_TITLE": "REAL TIME SYSTEMS",
+          "CREDITS": 3,
+          "JADUAL_WAKTU": "Khamis: 2 - 3 pm",
+          "LOKASI": "BK2",
+          "KUMPULAN_KULIAH": "RL",
+          "LECTURER": "AAS",
+          "STUDENTS": 10
+        }
+      }
+    },
+    "University Courses": {
+      "GFW0001": {
+        "T1": {
+          "COURSE_TITLE": "AI FOR EVERYONE\n  (Coordinator: UO)",
+          "CREDITS": 2,
+          "JADUAL_WAKTU": "Isnin: 10 - 12 pm",
+          "LOKASI": "ONLINE",
+          "LECTURER": "SAK",
+          "STUDENTS": 49
+        },
+        "T2": {
+          "COURSE_TITLE": "AI FOR EVERYONE\n  (Coordinator: UO)",
+          "CREDITS": 2,
+          "JADUAL_WAKTU": "Selasa: 10 - 12 pm",
+          "LOKASI": "ONLINE",
+          "LECTURER": "SAK",
+          "STUDENTS": 50
+        },
+        "T3": {
+          "COURSE_TITLE": "AI FOR EVERYONE\n  (Coordinator: UO)",
+          "CREDITS": 2,
+          "JADUAL_WAKTU": "Selasa: 3 - 5 pm",
+          "LOKASI": "ONLINE",
+          "LECTURER": "UO",
+          "STUDENTS": 50
+        },
+        "T4": {
+          "COURSE_TITLE": "AI FOR EVERYONE\n  (Coordinator: UO)",
+          "CREDITS": 2,
+          "JADUAL_WAKTU": "Isnin: 3 - 5 pm",
+          "LOKASI": "ONLINE",
+          "LECTURER": "AQMS",
+          "STUDENTS": 49
+        }
+      },
+      "GFW0015": {
+        "T1": {
+          "COURSE_TITLE": "COMPUTATIONAL THINKING WITH\n  ROBOTICS\n  (Coordinator: LCK)",
+          "CREDITS": 2,
+          "JADUAL_WAKTU": "Isnin: 3 - 5 pm",
+          "LOKASI": "ONLINE",
+          "LECTURER": "LCK",
+          "STUDENTS": 49
+        }
+      },
+      "GFW0016": {
+        "T1": {
+          "COURSE_TITLE": "CINEMATOGRAPHY 101\n  (Coordinator: MNA)",
+          "CREDITS": 2,
+          "JADUAL_WAKTU": "Rabu: 4 - 6 pm",
+          "LOKASI": "ONLINE",
+          "LECTURER": "MNA",
+          "STUDENTS": 50
+        },
+        "T2": {
+          "COURSE_TITLE": "CINEMATOGRAPHY 101\n  (Coordinator: MNA)",
+          "CREDITS": 2,
+          "JADUAL_WAKTU": "Isnin: 10 - 12 pm",
+          "LOKASI": "ONLINE",
+          "LECTURER": "AK",
+          "STUDENTS": 52
+        },
+        "T3": {
+          "COURSE_TITLE": "CINEMATOGRAPHY 101\n  (Coordinator: MNA)",
+          "CREDITS": 2,
+          "JADUAL_WAKTU": "Rabu: 10 - 12 pm",
+          "LOKASI": "ONLINE",
+          "LECTURER": "HZ/NH",
+          "STUDENTS": 55
+        }
+      },
+      "GFW0018": {
+        "T1": {
+          "COURSE_TITLE": "SECURITY AND ETHICS IN CYBERSPACE\n  (Coordinator: BRPJ)",
+          "CREDITS": 2,
+          "JADUAL_WAKTU": "Isnin: 12 - 2 pm",
+          "LOKASI": "ONLINE",
+          "LECTURER": "BRPJ",
+          "STUDENTS": 50
+        },
+        "T2": {
+          "COURSE_TITLE": "SECURITY AND ETHICS IN CYBERSPACE\n  (Coordinator: BRPJ)",
+          "CREDITS": 2,
+          "JADUAL_WAKTU": "Isnin: 4 - 6 pm",
+          "LOKASI": "ONLINE",
+          "LECTURER": "BRPJ",
+          "STUDENTS": 50
+        },
+        "T3": {
+          "COURSE_TITLE": "SECURITY AND ETHICS IN CYBERSPACE\n  (Coordinator: BRPJ)",
+          "CREDITS": 2,
+          "JADUAL_WAKTU": "Rabu: 10 - 12 pm",
+          "LOKASI": "ONLINE",
+          "LECTURER": "BRPJ",
+          "STUDENTS": 50
+        },
+        "T4": {
+          "COURSE_TITLE": "SECURITY AND ETHICS IN CYBERSPACE\n  (Coordinator: BRPJ)",
+          "CREDITS": 2,
+          "JADUAL_WAKTU": "Isnin: 3 - 5 pm",
+          "LOKASI": "ONLINE",
+          "LECTURER": "ML",
+          "STUDENTS": 55
+        }
+      },
+      "GFW0031": {
+        "T1": {
+          "COURSE_TITLE": "COMPUTER NETWORK FOR EVERYBODY\n  (Coordinator: FO)",
+          "CREDITS": 2,
+          "JADUAL_WAKTU": "Isnin: 12 - 2 pm",
+          "LOKASI": "ONLINE",
+          "LECTURER": "IA",
+          "STUDENTS": 75
+        },
+        "T2": {
+          "COURSE_TITLE": "COMPUTER NETWORK FOR EVERYBODY\n  (Coordinator: FO)",
+          "CREDITS": 2,
+          "JADUAL_WAKTU": "Isnin: 4 - 6 pm",
+          "LOKASI": "ONLINE",
+          "LECTURER": "RMN",
+          "STUDENTS": 50
+        },
+        "T3": {
+          "COURSE_TITLE": "COMPUTER NETWORK FOR EVERYBODY\n  (Coordinator: FO)",
+          "CREDITS": 2,
+          "JADUAL_WAKTU": "Isnin: 10 - 12 pm",
+          "LOKASI": "ONLINE",
+          "LECTURER": "ABG",
+          "STUDENTS": 50
+        },
+        "T4": {
+          "COURSE_TITLE": "COMPUTER NETWORK FOR EVERYBODY\n  (Coordinator: FO)",
+          "CREDITS": 2,
+          "JADUAL_WAKTU": "Selasa: 10 - 12 pm",
+          "LOKASI": "ONLINE",
+          "LECTURER": "ABG",
+          "STUDENTS": 50
+        }
+      },
+      "GFW0032": {
+        "T1": {
+          "COURSE_TITLE": "SOFT COMPUTING\n  (Coordinator: LWS)",
+          "CREDITS": 2,
+          "JADUAL_WAKTU": "Khamis: 10 - 12 pm",
+          "LOKASI": "ONLINE",
+          "LECTURER": "LWS",
+          "STUDENTS": 50
+        },
+        "T2": {
+          "COURSE_TITLE": "SOFT COMPUTING\n  (Coordinator: LWS)",
+          "CREDITS": 2,
+          "JADUAL_WAKTU": "Khamis: 10 - 12 pm",
+          "LOKASI": "ONLINE",
+          "LECTURER": "CCS",
+          "STUDENTS": 50
+        }
+      },
+      "GFW0033": {
+        "T1": {
+          "COURSE_TITLE": "WEBSITE DEVELOPMENT AND OPTIMIZATION\n  (Coordinator: NJ)",
+          "CREDITS": 2,
+          "JADUAL_WAKTU": "Isnin: 12 - 2 pm",
+          "LOKASI": "ONLINE",
+          "LECTURER": "AD",
+          "STUDENTS": 50
+        },
+        "T2": {
+          "COURSE_TITLE": "WEBSITE DEVELOPMENT AND OPTIMIZATION\n  (Coordinator: NJ)",
+          "CREDITS": 2,
+          "JADUAL_WAKTU": "Isnin: 4 - 6 pm",
+          "LOKASI": "ONLINE",
+          "LECTURER": "AD",
+          "STUDENTS": 50
+        },
+        "T3": {
+          "COURSE_TITLE": "WEBSITE DEVELOPMENT AND OPTIMIZATION\n  (Coordinator: NJ)",
+          "CREDITS": 2,
+          "JADUAL_WAKTU": "Khamis: 10 - 12 pm",
+          "LOKASI": "ONLINE",
+          "LECTURER": "NJ",
+          "STUDENTS": 50
+        },
+        "T4": {
+          "COURSE_TITLE": "WEBSITE DEVELOPMENT AND OPTIMIZATION\n  (Coordinator: NJ)",
+          "CREDITS": 2,
+          "JADUAL_WAKTU": "Selasa: 10 - 12 pm",
+          "LOKASI": "ONLINE",
+          "LECTURER": "NJ",
+          "STUDENTS": 50
+        }
+      }
+    }
+  }
+}

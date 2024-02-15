@@ -1,0 +1,2127 @@
+{
+  "Computer System and Network": {
+    "Year 1": {
+      "Semester 1": {
+        "GIG1012": {
+          "COURSE_TITLE": "Philosophy and Current Issues",
+          "CREDITS": 2,
+          "Occurrence": 19,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Friday",
+              "start_time": "08:00",
+              "end_time": "10:00"
+            }
+          ]
+        },
+        "GLT1004": {
+          "COURSE_TITLE": "Mastering English 3",
+          "CREDITS": 2,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Wednesday",
+              "start_time": "17:00",
+              "end_time": "19:00"
+            }
+          ]
+        },
+        "WIX1001": {
+          "COURSE_TITLE": "Computing Mathematics 1",
+          "CREDITS": 3,
+          "Occurrence": 7,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "12:00",
+              "end_time": "14:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Wednesday",
+              "start_time": "13:00",
+              "end_time": "14:00"
+            }
+          ]
+        },
+        "WIX1002": {
+          "COURSE_TITLE": "Fundamental of Programming",
+          "CREDITS": 5,
+          "Occurrence": 7,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "09:00",
+              "end_time": "11:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Thursday",
+              "start_time": "10:00",
+              "end_time": "13:00"
+            }
+          ]
+        },
+        "WIX1003": {
+          "COURSE_TITLE": "Computer Systems and Organization",
+          "CREDITS": 3,
+          "Occurrence": 7,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Tuesday",
+              "start_time": "10:00",
+              "end_time": "12:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Friday",
+              "start_time": "11:00",
+              "end_time": "12:00"
+            }
+          ]
+        },
+        "WIX2001": {
+          "COURSE_TITLE": "Thinking and Communication Skills",
+          "CREDITS": 3,
+          "Occurrence": 7,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Tuesday",
+              "start_time": "12:00",
+              "end_time": "14:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Wednesday",
+              "start_time": "15:00",
+              "end_time": "16:00"
+            }
+          ]
+        }
+      },
+      "Semester 2": {
+        "GIG1013": {
+          "COURSE_TITLE": "Appreciation of Ethics and Civillizations",
+          "CREDITS": 2
+        },
+        "GLTXXXX": {
+          "COURSE_TITLE": "English for Communication (2)",
+          "CREDITS": 2
+        },
+        "WIA1002": {
+          "COURSE_TITLE": "Data Stucture (#WIX1002)",
+          "CREDITS": 5
+        },
+        "WIA1003": {
+          "COURSE_TITLE": "Computer System Architecture (#WIX1003)",
+          "CREDITS": 3
+        },
+        "WIA1005": {
+          "COURSE_TITLE": "Network Technology Foundation",
+          "CREDITS": 4
+        },
+        "WIA1006": {
+          "COURSE_TITLE": "Machine Learning",
+          "CREDITS": 3
+        }
+      }
+    },
+    "Year 2": {
+      "Semester 1": {
+        "GIG1003": {
+          "COURSE_TITLE": "Basic Entrepreneurship Culture",
+          "CREDITS": 2,
+          "Occurrence": 5,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Tuesday",
+              "start_time": "14:00",
+              "end_time": "16:00"
+            }
+          ]
+        },
+        "WIX2002": {
+          "COURSE_TITLE": "Project Management",
+          "CREDITS": 3,
+          "Occurrence": 2,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "16:00",
+              "end_time": "18:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Thursday",
+              "start_time": "09:00",
+              "end_time": "10:00"
+            }
+          ]
+        },
+        "WIA2001": {
+          "COURSE_TITLE": "Database",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "14:00",
+              "end_time": "16:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Wednesday",
+              "start_time": "12:00",
+              "end_time": "13:00"
+            }
+          ]
+        },
+        "WIA2003": {
+          "COURSE_TITLE": "Probability and Statistics",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Wednesday",
+              "start_time": "10:00",
+              "end_time": "12:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Thursday",
+              "start_time": "15:00",
+              "end_time": "16:00"
+            }
+          ]
+        },
+        "WIA2006": {
+          "COURSE_TITLE": "System Analysis and Design",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Tuesday",
+              "start_time": "16:00",
+              "end_time": "18:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Friday",
+              "start_time": "15:00",
+              "end_time": "16:00"
+            }
+          ]
+        },
+        "WIA2008": {
+          "COURSE_TITLE": "Advanced Network Technology (#WIA1005)",
+          "CREDITS": 4,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Tuesday",
+              "start_time": "09:00",
+              "end_time": "11:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Tuesday",
+              "start_time": "12:00",
+              "end_time": "14:00"
+            }
+          ]
+        },
+        "WIA2009": {
+          "COURSE_TITLE": "Digital Design and Hardware Description Language (#WIX1003 & #WIA1003)",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "10:00",
+              "end_time": "12:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Thursday",
+              "start_time": "16:00",
+              "end_time": "17:00"
+            }
+          ]
+        }
+      },
+      "Semester 2": {
+        "CourseCode1": {
+          "COURSE_TITLE": "Co-Curriculum (1)",
+          "CREDITS": 2
+        },
+        "WIA2004": {
+          "COURSE_TITLE": "Operating Systems",
+          "CREDITS": 4
+        },
+        "WIA2005": {
+          "COURSE_TITLE": "Algorithm Design and Analysis (#WIA1002)",
+          "CREDITS": 4
+        },
+        "CourseCode2": {
+          "COURSE_TITLE": "Specialization Elective (1)",
+          "CREDITS": 3
+        },
+        "CourseCode3": {
+          "COURSE_TITLE": "Specialization Elective (2)",
+          "CREDITS": 3
+        },
+        "CourseCode4": {
+          "COURSE_TITLE": "Specialization Elective (3)",
+          "CREDITS": 3
+        },
+        "CourseCode5": {
+          "COURSE_TITLE": "KIAR: Integrity and Anti-Corruption",
+          "CREDITS": 2
+        }
+      }
+    },
+    "Year 3": {
+      "Semester 1": {
+        "WIA3001": {
+          "COURSE_TITLE": "Industrial Training *",
+          "CREDITS": 12
+        }
+      },
+      "Semester 2": {
+        "WIA3002": {
+          "COURSE_TITLE": "Academic Project 1 **",
+          "CREDITS": 3
+        },
+        "CourseCode1": {
+          "COURSE_TITLE": "Specialization Elective (4)",
+          "CREDITS": 3
+        },
+        "CourseCode2": {
+          "COURSE_TITLE": "Specialization Elective (5)",
+          "CREDITS": 3
+        },
+        "CourseCode3": {
+          "COURSE_TITLE": "Specialization Elective (6)",
+          "CREDITS": 3
+        },
+        "CourseCode4": {
+          "COURSE_TITLE": "Specialization Elective (7)",
+          "CREDITS": 3
+        },
+        "CourseCode5": {
+          "COURSE_TITLE": "University Elective (Cluster 1)",
+          "CREDITS": 2
+        },
+        "CourseCode6": {
+          "COURSE_TITLE": "University Elective (Cluster 2)",
+          "CREDITS": 2
+        }
+      }
+    },
+    "Year 4": {
+      "Semester 1": {
+        "CourseCode1": {
+          "COURSE_TITLE": "Co-Curriculum (2)",
+          "CREDITS": 2
+        },
+        "WIA3003": {
+          "COURSE_TITLE": "Academic Project 2 (#WIA3002)",
+          "CREDITS": 5
+        },
+        "CourseCode2": {
+          "COURSE_TITLE": "Specialization Elective (8)",
+          "CREDITS": 3
+        },
+        "CourseCode3": {
+          "COURSE_TITLE": "Specialization Elective (9)",
+          "CREDITS": 3
+        },
+        "CourseCode4": {
+          "COURSE_TITLE": "Specialization Elective (10)",
+          "CREDITS": 3
+        },
+        "CourseCode5": {
+          "COURSE_TITLE": "University Elective (Cluster 3)",
+          "CREDITS": 2
+        }
+      }
+    }
+  },
+  "Artificial Intelligence": {
+    "Year 1": {
+      "Semester 1": {
+        "GIG1012": {
+          "COURSE_TITLE": "Philosophy and Current Issues",
+          "CREDITS": 2,
+          "Occurrence": 5,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Tuesday",
+              "start_time": "12:00",
+              "end_time": "14:00"
+            }
+          ]
+        },
+        "GLT1004": {
+          "COURSE_TITLE": "Mastering English 3",
+          "CREDITS": 2,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Wednesday",
+              "start_time": "17:00",
+              "end_time": "19:00"
+            }
+          ]
+        },
+        "WIX1001": {
+          "COURSE_TITLE": "Computing Mathematics 1",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "12:00",
+              "end_time": "14:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Wednesday",
+              "start_time": "11:00",
+              "end_time": "12:00"
+            }
+          ]
+        },
+        "WIX1002": {
+          "COURSE_TITLE": "Fundamental of Programming",
+          "CREDITS": 5,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "09:00",
+              "end_time": "11:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Thursday",
+              "start_time": "10:00",
+              "end_time": "13:00"
+            }
+          ]
+        },
+        "WIX1003": {
+          "COURSE_TITLE": "Computer Systems and Organization",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Tuesday",
+              "start_time": "10:00",
+              "end_time": "12:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Thursday",
+              "start_time": "13:00",
+              "end_time": "14:00"
+            }
+          ]
+        },
+        "WIA1007": {
+          "COURSE_TITLE": "Introduction to Data Science",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Tuesday",
+              "start_time": "14:00",
+              "end_time": "16:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Thursday",
+              "start_time": "09:00",
+              "end_time": "10:00"
+            }
+          ]
+        }
+      },
+      "Semester 2": {
+        "GIG1013": {
+          "COURSE_TITLE": "Appreciation of Ethics and Civillizations",
+          "CREDITS": 2
+        },
+        "GLTXXXX": {
+          "COURSE_TITLE": "English for Communication (2)",
+          "CREDITS": 2
+        },
+        "WIA1002": {
+          "COURSE_TITLE": "Data Stucture (#WIX1002)",
+          "CREDITS": 5
+        },
+        "WIA1003": {
+          "COURSE_TITLE": "Computer System Architecture (#WIX1003)",
+          "CREDITS": 3
+        },
+        "WIA1005": {
+          "COURSE_TITLE": "Network Technology Foundation",
+          "CREDITS": 4
+        },
+        "WIA1006": {
+          "COURSE_TITLE": "Machine Learning",
+          "CREDITS": 3
+        }
+      }
+    },
+    "Year 2": {
+      "Semester 1": {
+        "GIG1003": {
+          "COURSE_TITLE": "Basic Entrepreneurship Culture",
+          "CREDITS": 2,
+          "Occurrence": 7,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Wednesday",
+              "start_time": "12:00",
+              "end_time": "14:00"
+            }
+          ]
+        },
+        "WIX2001": {
+          "COURSE_TITLE": "Thinking and Communication Skills",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "10:00",
+              "end_time": "12:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Wednesday",
+              "start_time": "16:00",
+              "end_time": "17:00"
+            }
+          ]
+        },
+        "WIX2002": {
+          "COURSE_TITLE": "Project Management",
+          "CREDITS": 3,
+          "Occurrence": 2,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "16:00",
+              "end_time": "18:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Thursday",
+              "start_time": "09:00",
+              "end_time": "10:00"
+            }
+          ]
+        },
+        "WIA2001": {
+          "COURSE_TITLE": "Database",
+          "CREDITS": 3,
+          "Occurrence": 3,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "16:00",
+              "end_time": "18:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Wednesday",
+              "start_time": "15:00",
+              "end_time": "16:00"
+            }
+          ]
+        },
+        "WIA2003": {
+          "COURSE_TITLE": "Probability and Statistics",
+          "CREDITS": 3,
+          "Occurrence": 2,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Wednesday",
+              "start_time": "10:00",
+              "end_time": "12:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Monday",
+              "start_time": "09:00",
+              "end_time": "10:00"
+            }
+          ]
+        },
+        "WIA2006": {
+          "COURSE_TITLE": "System Analysis and Design",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Tuesday",
+              "start_time": "16:00",
+              "end_time": "18:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Friday",
+              "start_time": "15:00",
+              "end_time": "16:00"
+            }
+          ]
+        },
+        "WIA2007": {
+          "COURSE_TITLE": "Mobile Application Development)",
+          "CREDITS": 4,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Thursday",
+              "start_time": "16:00",
+              "end_time": "18:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Monday",
+              "start_time": "12:00",
+              "end_time": "14:00"
+            }
+          ]
+        }
+      },
+      "Semester 2": {
+        "CourseCode1": {
+          "COURSE_TITLE": "Co-Curriculum (1)",
+          "CREDITS": 2
+        },
+        "WIA2004": {
+          "COURSE_TITLE": "Operating Systems",
+          "CREDITS": 4
+        },
+        "WIA2005": {
+          "COURSE_TITLE": "Algorithm Design and Analysis (#WIA1002)",
+          "CREDITS": 4
+        },
+        "CourseCode2": {
+          "COURSE_TITLE": "Specialization Elective (1)",
+          "CREDITS": 3
+        },
+        "CourseCode3": {
+          "COURSE_TITLE": "Specialization Elective (2)",
+          "CREDITS": 3
+        },
+        "CourseCode4": {
+          "COURSE_TITLE": "Specialization Elective (3)",
+          "CREDITS": 3
+        },
+        "CourseCode5": {
+          "COURSE_TITLE": "KIAR: Integrity and Anti-Corruption",
+          "CREDITS": 2
+        }
+      }
+    },
+    "Year 3": {
+      "Semester 1": {
+        "WIA3001": {
+          "COURSE_TITLE": "Industrial Training *",
+          "CREDITS": 12
+        }
+      },
+      "Semester 2": {
+        "WIA3002": {
+          "COURSE_TITLE": "Academic Project 1 **",
+          "CREDITS": 3
+        },
+        "CourseCode1": {
+          "COURSE_TITLE": "Specialization Elective (4)",
+          "CREDITS": 3
+        },
+        "CourseCode2": {
+          "COURSE_TITLE": "Specialization Elective (5)",
+          "CREDITS": 3
+        },
+        "CourseCode3": {
+          "COURSE_TITLE": "Specialization Elective (6)",
+          "CREDITS": 3
+        },
+        "CourseCode4": {
+          "COURSE_TITLE": "Specialization Elective (7)",
+          "CREDITS": 3
+        },
+        "CourseCode5": {
+          "COURSE_TITLE": "University Elective (Cluster 1)",
+          "CREDITS": 2
+        },
+        "CourseCode6": {
+          "COURSE_TITLE": "University Elective (Cluster 2)",
+          "CREDITS": 2
+        }
+      }
+    },
+    "Year 4": {
+      "Semester 1": {
+        "CourseCode1": {
+          "COURSE_TITLE": "Co-Curriculum (2)",
+          "CREDITS": 2
+        },
+        "WIA3003": {
+          "COURSE_TITLE": "Academic Project 2 (#WIA3002)",
+          "CREDITS": 5
+        },
+        "CourseCode2": {
+          "COURSE_TITLE": "Specialization Elective (8)",
+          "CREDITS": 3
+        },
+        "CourseCode3": {
+          "COURSE_TITLE": "Specialization Elective (9)",
+          "CREDITS": 3
+        },
+        "CourseCode4": {
+          "COURSE_TITLE": "Specialization Elective (10)",
+          "CREDITS": 3
+        },
+        "CourseCode5": {
+          "COURSE_TITLE": "University Elective (Cluster 3)",
+          "CREDITS": 2
+        }
+      }
+    }
+  },
+  "Information Systems": {
+    "Year 1": {
+      "Semester 1": {
+        "GIG1012": {
+          "COURSE_TITLE": "Philosophy and Current Issues",
+          "CREDITS": 2,
+          "Occurrence": 11,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Wednesday",
+              "start_time": "12:00",
+              "end_time": "14:00"
+            }
+          ]
+        },
+        "GLT1004": {
+          "COURSE_TITLE": "Mastering English 3",
+          "CREDITS": 2,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Wednesday",
+              "start_time": "17:00",
+              "end_time": "19:00"
+            }
+          ]
+        },
+        "WIX1001": {
+          "COURSE_TITLE": "Computing Mathematics 1",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "12:00",
+              "end_time": "14:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Wednesday",
+              "start_time": "11:00",
+              "end_time": "12:00"
+            }
+          ]
+        },
+        "WIX1002": {
+          "COURSE_TITLE": "Fundamental of Programming",
+          "CREDITS": 5,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "09:00",
+              "end_time": "11:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Thursday",
+              "start_time": "10:00",
+              "end_time": "13:00"
+            }
+          ]
+        },
+        "WIX1003": {
+          "COURSE_TITLE": "Computer Systems and Organization",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Tuesday",
+              "start_time": "10:00",
+              "end_time": "12:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Thursday",
+              "start_time": "13:00",
+              "end_time": "14:00"
+            }
+          ]
+        },
+        "WIA1001": {
+          "COURSE_TITLE": "Information Systems",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Tuesday",
+              "start_time": "12:00",
+              "end_time": "14:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Wednesday",
+              "start_time": "09:00",
+              "end_time": "10:00"
+            }
+          ]
+        }
+      },
+      "Semester 2": {
+        "GIG1013": {
+          "COURSE_TITLE": "Appreciation of Ethics and Civillizations",
+          "CREDITS": 2
+        },
+        "GLTXXXX": {
+          "COURSE_TITLE": "English for Communication (2)",
+          "CREDITS": 2
+        },
+        "WIA1002": {
+          "COURSE_TITLE": "Data Stucture (#WIX1002)",
+          "CREDITS": 5
+        },
+        "WIA1003": {
+          "COURSE_TITLE": "Computer System Architecture (#WIX1003)",
+          "CREDITS": 3
+        },
+        "WIA1005": {
+          "COURSE_TITLE": "Network Technology Foundation",
+          "CREDITS": 4
+        },
+        "WIA1006": {
+          "COURSE_TITLE": "Machine Learning",
+          "CREDITS": 3
+        }
+      }
+    },
+    "Year 2": {
+      "Semester 1": {
+        "GIG1003": {
+          "COURSE_TITLE": "Basic Entrepreneurship Culture",
+          "CREDITS": 2,
+          "Occurrence": 3,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Tuesday",
+              "start_time": "08:00",
+              "end_time": "10:00"
+            }
+          ]
+        },
+        "WIX2001": {
+          "COURSE_TITLE": "Thinking and Communication Skills",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "10:00",
+              "end_time": "12:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Wednesday",
+              "start_time": "16:00",
+              "end_time": "17:00"
+            }
+          ]
+        },
+        "WIX2002": {
+          "COURSE_TITLE": "Project Management",
+          "CREDITS": 3,
+          "Occurrence": 2,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "16:00",
+              "end_time": "18:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Thursday",
+              "start_time": "09:00",
+              "end_time": "10:00"
+            }
+          ]
+        },
+        "WIA2001": {
+          "COURSE_TITLE": "Database",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "14:00",
+              "end_time": "16:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Wednesday",
+              "start_time": "12:00",
+              "end_time": "13:00"
+            }
+          ]
+        },
+        "WIA2003": {
+          "COURSE_TITLE": "Probability and Statistics",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Wednesday",
+              "start_time": "10:00",
+              "end_time": "12:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Thursday",
+              "start_time": "15:00",
+              "end_time": "16:00"
+            }
+          ]
+        },
+        "WIA2006": {
+          "COURSE_TITLE": "System Analysis and Design",
+          "CREDITS": 3,
+          "Occurrence": 2,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Tuesday",
+              "start_time": "16:00",
+              "end_time": "18:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Friday",
+              "start_time": "15:00",
+              "end_time": "16:00"
+            }
+          ]
+        },
+        "WIA2007": {
+          "COURSE_TITLE": "Mobile Application Development)",
+          "CREDITS": 4,
+          "Occurrence": 7,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Thursday",
+              "start_time": "16:00",
+              "end_time": "18:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Tuesday",
+              "start_time": "14:00",
+              "end_time": "16:00"
+            }
+          ]
+        }
+      },
+      "Semester 2": {
+        "CourseCode1": {
+          "COURSE_TITLE": "Co-Curriculum (1)",
+          "CREDITS": 2
+        },
+        "WIA2004": {
+          "COURSE_TITLE": "Operating Systems",
+          "CREDITS": 4
+        },
+        "WIA2005": {
+          "COURSE_TITLE": "Algorithm Design and Analysis (#WIA1002)",
+          "CREDITS": 4
+        },
+        "CourseCode2": {
+          "COURSE_TITLE": "Specialization Elective (1)",
+          "CREDITS": 3
+        },
+        "CourseCode3": {
+          "COURSE_TITLE": "Specialization Elective (2)",
+          "CREDITS": 3
+        },
+        "CourseCode4": {
+          "COURSE_TITLE": "Specialization Elective (3)",
+          "CREDITS": 3
+        },
+        "CourseCode5": {
+          "COURSE_TITLE": "KIAR: Integrity and Anti-Corruption",
+          "CREDITS": 2
+        }
+      }
+    },
+    "Year 3": {
+      "Semester 1": {
+        "WIA3001": {
+          "COURSE_TITLE": "Industrial Training *",
+          "CREDITS": 12
+        }
+      },
+      "Semester 2": {
+        "WIA3002": {
+          "COURSE_TITLE": "Academic Project 1 **",
+          "CREDITS": 3
+        },
+        "CourseCode1": {
+          "COURSE_TITLE": "Specialization Elective (4)",
+          "CREDITS": 3
+        },
+        "CourseCode2": {
+          "COURSE_TITLE": "Specialization Elective (5)",
+          "CREDITS": 3
+        },
+        "CourseCode3": {
+          "COURSE_TITLE": "Specialization Elective (6)",
+          "CREDITS": 3
+        },
+        "CourseCode4": {
+          "COURSE_TITLE": "Specialization Elective (7)",
+          "CREDITS": 3
+        },
+        "CourseCode5": {
+          "COURSE_TITLE": "University Elective (Cluster 1)",
+          "CREDITS": 2
+        },
+        "CourseCode6": {
+          "COURSE_TITLE": "University Elective (Cluster 2)",
+          "CREDITS": 2
+        }
+      }
+    },
+    "Year 4": {
+      "Semester 1": {
+        "CourseCode1": {
+          "COURSE_TITLE": "Co-Curriculum (2)",
+          "CREDITS": 2
+        },
+        "WIA3003": {
+          "COURSE_TITLE": "Academic Project 2 (#WIA3002)",
+          "CREDITS": 5
+        },
+        "CourseCode2": {
+          "COURSE_TITLE": "Specialization Elective (8)",
+          "CREDITS": 3
+        },
+        "CourseCode3": {
+          "COURSE_TITLE": "Specialization Elective (9)",
+          "CREDITS": 3
+        },
+        "CourseCode4": {
+          "COURSE_TITLE": "Specialization Elective (10)",
+          "CREDITS": 3
+        },
+        "CourseCode5": {
+          "COURSE_TITLE": "University Elective (Cluster 3)",
+          "CREDITS": 2
+        }
+      }
+    }
+  },
+  "Software Engineering": {
+    "Year 1": {
+      "Semester 1": {
+        "GIG1012": {
+          "COURSE_TITLE": "Philosophy and Current Issues",
+          "CREDITS": 2,
+          "Occurrence": 5,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Tuesday",
+              "start_time": "12:00",
+              "end_time": "14:00"
+            }
+          ]
+        },
+        "GLT1003": {
+          "COURSE_TITLE": "Mastering English 2",
+          "CREDITS": 2,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Tuesday",
+              "start_time": "17:00",
+              "end_time": "19:00"
+            }
+          ]
+        },
+        "WIX1001": {
+          "COURSE_TITLE": "Computing Mathematics 1",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "12:00",
+              "end_time": "14:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Wednesday",
+              "start_time": "11:00",
+              "end_time": "12:00"
+            }
+          ]
+        },
+        "WIX1002": {
+          "COURSE_TITLE": "Fundamental of Programming",
+          "CREDITS": 5,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "09:00",
+              "end_time": "11:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Thursday",
+              "start_time": "10:00",
+              "end_time": "13:00"
+            }
+          ]
+        },
+        "WIX1003": {
+          "COURSE_TITLE": "Computer Systems and Organization",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Tuesday",
+              "start_time": "10:00",
+              "end_time": "12:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Thursday",
+              "start_time": "13:00",
+              "end_time": "14:00"
+            }
+          ]
+        },
+        "WIA2010": {
+          "COURSE_TITLE": "Human Computer Interaction",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Wednesday",
+              "start_time": "16:00",
+              "end_time": "18:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Monday",
+              "start_time": "16:00",
+              "end_time": "17:00"
+            }
+          ]
+        }
+      },
+      "Semester 2": {
+        "GIG1013": {
+          "COURSE_TITLE": "Appreciation of Ethics and Civillizations",
+          "CREDITS": 2
+        },
+        "GLTXXXX": {
+          "COURSE_TITLE": "English for Communication (2)",
+          "CREDITS": 2
+        },
+        "WIA1002": {
+          "COURSE_TITLE": "Data Stucture (#WIX1002)",
+          "CREDITS": 5
+        },
+        "WIA1003": {
+          "COURSE_TITLE": "Computer System Architecture (#WIX1003)",
+          "CREDITS": 3
+        },
+        "WIA1005": {
+          "COURSE_TITLE": "Network Technology Foundation",
+          "CREDITS": 4
+        },
+        "WIA1006": {
+          "COURSE_TITLE": "Machine Learning",
+          "CREDITS": 3
+        }
+      }
+    },
+    "Year 2": {
+      "Semester 1": {
+        "GIG1003": {
+          "COURSE_TITLE": "Basic Entrepreneurship Culture",
+          "CREDITS": 2,
+          "Occurrence": 3,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Tuesday",
+              "start_time": "08:00",
+              "end_time": "10:00"
+            }
+          ]
+        },
+        "WIX2001": {
+          "COURSE_TITLE": "Thinking and Communication Skills",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "10:00",
+              "end_time": "12:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Wednesday",
+              "start_time": "16:00",
+              "end_time": "17:00"
+            }
+          ]
+        },
+        "WIX2002": {
+          "COURSE_TITLE": "Project Management",
+          "CREDITS": 3,
+          "Occurrence": 2,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "16:00",
+              "end_time": "18:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Thursday",
+              "start_time": "09:00",
+              "end_time": "10:00"
+            }
+          ]
+        },
+        "WIA2001": {
+          "COURSE_TITLE": "Database",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "14:00",
+              "end_time": "16:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Wednesday",
+              "start_time": "12:00",
+              "end_time": "13:00"
+            }
+          ]
+        },
+        "WIA2002": {
+          "COURSE_TITLE": "Software Modeling",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Tuesday",
+              "start_time": "14:00",
+              "end_time": "16:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Thursday",
+              "start_time": "10:00",
+              "end_time": "11:00"
+            }
+          ]
+        },
+        "WIA2003": {
+          "COURSE_TITLE": "Probability and Statistics",
+          "CREDITS": 3,
+          "Occurrence": 2,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Wednesday",
+              "start_time": "10:00",
+              "end_time": "12:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Thursday",
+              "start_time": "15:00",
+              "end_time": "16:00"
+            }
+          ]
+        },
+        "WIA2007": {
+          "COURSE_TITLE": "Mobile Application Development)",
+          "CREDITS": 4,
+          "Occurrence": 3,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Thursday",
+              "start_time": "16:00",
+              "end_time": "18:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Friday",
+              "start_time": "16:00",
+              "end_time": "18:00"
+            }
+          ]
+        }
+      },
+      "Semester 2": {
+        "CourseCode1": {
+          "COURSE_TITLE": "Co-Curriculum (1)",
+          "CREDITS": 2
+        },
+        "WIA2004": {
+          "COURSE_TITLE": "Operating Systems",
+          "CREDITS": 4
+        },
+        "WIA2005": {
+          "COURSE_TITLE": "Algorithm Design and Analysis (#WIA1002)",
+          "CREDITS": 4
+        },
+        "CourseCode2": {
+          "COURSE_TITLE": "Specialization Elective (1)",
+          "CREDITS": 3
+        },
+        "CourseCode3": {
+          "COURSE_TITLE": "Specialization Elective (2)",
+          "CREDITS": 3
+        },
+        "CourseCode4": {
+          "COURSE_TITLE": "Specialization Elective (3)",
+          "CREDITS": 3
+        },
+        "CourseCode5": {
+          "COURSE_TITLE": "KIAR: Integrity and Anti-Corruption",
+          "CREDITS": 2
+        }
+      }
+    },
+    "Year 3": {
+      "Semester 1": {
+        "WIA3001": {
+          "COURSE_TITLE": "Industrial Training *",
+          "CREDITS": 12
+        }
+      },
+      "Semester 2": {
+        "WIA3002": {
+          "COURSE_TITLE": "Academic Project 1 **",
+          "CREDITS": 3
+        },
+        "CourseCode1": {
+          "COURSE_TITLE": "Specialization Elective (4)",
+          "CREDITS": 3
+        },
+        "CourseCode2": {
+          "COURSE_TITLE": "Specialization Elective (5)",
+          "CREDITS": 3
+        },
+        "CourseCode3": {
+          "COURSE_TITLE": "Specialization Elective (6)",
+          "CREDITS": 3
+        },
+        "CourseCode4": {
+          "COURSE_TITLE": "Specialization Elective (7)",
+          "CREDITS": 3
+        },
+        "CourseCode5": {
+          "COURSE_TITLE": "University Elective (Cluster 1)",
+          "CREDITS": 2
+        },
+        "CourseCode6": {
+          "COURSE_TITLE": "University Elective (Cluster 2)",
+          "CREDITS": 2
+        }
+      }
+    },
+    "Year 4": {
+      "Semester 1": {
+        "CourseCode1": {
+          "COURSE_TITLE": "Co-Curriculum (2)",
+          "CREDITS": 2
+        },
+        "WIA3003": {
+          "COURSE_TITLE": "Academic Project 2 (#WIA3002)",
+          "CREDITS": 5
+        },
+        "CourseCode2": {
+          "COURSE_TITLE": "Specialization Elective (8)",
+          "CREDITS": 3
+        },
+        "CourseCode3": {
+          "COURSE_TITLE": "Specialization Elective (9)",
+          "CREDITS": 3
+        },
+        "CourseCode4": {
+          "COURSE_TITLE": "Specialization Elective (10)",
+          "CREDITS": 3
+        },
+        "CourseCode5": {
+          "COURSE_TITLE": "University Elective (Cluster 3)",
+          "CREDITS": 2
+        }
+      }
+    }
+  },
+  "Multimedia Computing": {
+    "Year 1": {
+      "Semester 1": {
+        "GIG1012": {
+          "COURSE_TITLE": "Philosophy and Current Issues Language",
+          "CREDITS": 2,
+          "Occurrence": 5,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Tuesday",
+              "start_time": "12:00",
+              "end_time": "14:00"
+            }
+          ]
+        },
+        "GLT1003": {
+          "COURSE_TITLE": "Mastering English 2",
+          "CREDITS": 2,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Tuesday",
+              "start_time": "17:00",
+              "end_time": "19:00"
+            }
+          ]
+        },
+        "WIX1001": {
+          "COURSE_TITLE": "Computing Mathematics 1",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "12:00",
+              "end_time": "14:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Wednesday",
+              "start_time": "11:00",
+              "end_time": "12:00"
+            }
+          ]
+        },
+        "WIX1002": {
+          "COURSE_TITLE": "Fundamental of Programming",
+          "CREDITS": 5,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "09:00",
+              "end_time": "11:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Thursday",
+              "start_time": "10:00",
+              "end_time": "13:00"
+            }
+          ]
+        },
+        "WIX1003": {
+          "COURSE_TITLE": "Computer Systems and Organization",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Tuesday",
+              "start_time": "10:00",
+              "end_time": "12:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Thursday",
+              "start_time": "13:00",
+              "end_time": "14:00"
+            }
+          ]
+        },
+        "WIA1008": {
+          "COURSE_TITLE": "Fundamental of Multimedia",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Wednesday",
+              "start_time": "15:00",
+              "end_time": "18:00"
+            }
+          ]
+        }
+      },
+      "Semester 2": {
+        "GIG1013": {
+          "COURSE_TITLE": "Appreciation of Ethics and Civillizations",
+          "CREDITS": 2
+        },
+        "GLTXXXX": {
+          "COURSE_TITLE": "English for Communication (2)",
+          "CREDITS": 2
+        },
+        "WIA1002": {
+          "COURSE_TITLE": "Data Stucture (#WIX1002)",
+          "CREDITS": 5
+        },
+        "WIA1003": {
+          "COURSE_TITLE": "Computer System Architecture (#WIX1003)",
+          "CREDITS": 3
+        },
+        "WIA1005": {
+          "COURSE_TITLE": "Network Technology Foundation",
+          "CREDITS": 4
+        },
+        "WIA1006": {
+          "COURSE_TITLE": "Machine Learning",
+          "CREDITS": 3
+        }
+      }
+    },
+    "Year 2": {
+      "Semester 1": {
+        "GIG1003": {
+          "COURSE_TITLE": "Basic Entrepreneurship Culture",
+          "CREDITS": 2,
+          "Occurrence": 3,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Tuesday",
+              "start_time": "08:00",
+              "end_time": "10:00"
+            }
+          ]
+        },
+        "WIX2001": {
+          "COURSE_TITLE": "Thinking and Communication Skills",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "10:00",
+              "end_time": "12:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Wednesday",
+              "start_time": "16:00",
+              "end_time": "17:00"
+            }
+          ]
+        },
+        "WIX2002": {
+          "COURSE_TITLE": "Project Management",
+          "CREDITS": 3,
+          "Occurrence": 2,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "16:00",
+              "end_time": "18:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Thursday",
+              "start_time": "09:00",
+              "end_time": "10:00"
+            }
+          ]
+        },
+        "WIA2001": {
+          "COURSE_TITLE": "Database",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "14:00",
+              "end_time": "16:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Wednesday",
+              "start_time": "12:00",
+              "end_time": "13:00"
+            }
+          ]
+        },
+        "WIA2003": {
+          "COURSE_TITLE": "Probability and Statistics",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Wednesday",
+              "start_time": "10:00",
+              "end_time": "12:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Thursday",
+              "start_time": "15:00",
+              "end_time": "16:00"
+            }
+          ]
+        },
+        "WIA2006": {
+          "COURSE_TITLE": "System Analysis and Design",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Tuesday",
+              "start_time": "16:00",
+              "end_time": "18:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Friday",
+              "start_time": "15:00",
+              "end_time": "16:00"
+            }
+          ]
+        },
+        "WIA2007": {
+          "COURSE_TITLE": "Mobile Application Development)",
+          "CREDITS": 4,
+          "Occurrence": 4,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Thursday",
+              "start_time": "16:00",
+              "end_time": "18:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Friday",
+              "start_time": "16:00",
+              "end_time": "18:00"
+            }
+          ]
+        }
+      },
+      "Semester 2": {
+        "CourseCode1": {
+          "COURSE_TITLE": "Co-Curriculum (1)",
+          "CREDITS": 2
+        },
+        "WIA2004": {
+          "COURSE_TITLE": "Operating Systems",
+          "CREDITS": 4
+        },
+        "WIA2005": {
+          "COURSE_TITLE": "Algorithm Design and Analysis (#WIA1002)",
+          "CREDITS": 4
+        },
+        "CourseCode2": {
+          "COURSE_TITLE": "Specialization Elective (1)",
+          "CREDITS": 3
+        },
+        "CourseCode3": {
+          "COURSE_TITLE": "Specialization Elective (2)",
+          "CREDITS": 3
+        },
+        "CourseCode4": {
+          "COURSE_TITLE": "Specialization Elective (3)",
+          "CREDITS": 3
+        },
+        "CourseCode5": {
+          "COURSE_TITLE": "KIAR: Integrity and Anti-Corruption",
+          "CREDITS": 2
+        }
+      }
+    },
+    "Year 3": {
+      "Semester 1": {
+        "WIA3001": {
+          "COURSE_TITLE": "Industrial Training *",
+          "CREDITS": 12
+        }
+      },
+      "Semester 2": {
+        "WIA3002": {
+          "COURSE_TITLE": "Academic Project 1 **",
+          "CREDITS": 3
+        },
+        "CourseCode1": {
+          "COURSE_TITLE": "Specialization Elective (4)",
+          "CREDITS": 3
+        },
+        "CourseCode2": {
+          "COURSE_TITLE": "Specialization Elective (5)",
+          "CREDITS": 3
+        },
+        "CourseCode3": {
+          "COURSE_TITLE": "Specialization Elective (6)",
+          "CREDITS": 3
+        },
+        "CourseCode4": {
+          "COURSE_TITLE": "Specialization Elective (7)",
+          "CREDITS": 3
+        },
+        "CourseCode5": {
+          "COURSE_TITLE": "University Elective (Cluster 1)",
+          "CREDITS": 2
+        },
+        "CourseCode6": {
+          "COURSE_TITLE": "University Elective (Cluster 2)",
+          "CREDITS": 2
+        }
+      }
+    },
+    "Year 4": {
+      "Semester 1": {
+        "CourseCode1": {
+          "COURSE_TITLE": "Co-Curriculum (2)",
+          "CREDITS": 2
+        },
+        "WIA3003": {
+          "COURSE_TITLE": "Academic Project 2 (#WIA3002)",
+          "CREDITS": 5
+        },
+        "CourseCode2": {
+          "COURSE_TITLE": "Specialization Elective (8)",
+          "CREDITS": 3
+        },
+        "CourseCode3": {
+          "COURSE_TITLE": "Specialization Elective (9)",
+          "CREDITS": 3
+        },
+        "CourseCode4": {
+          "COURSE_TITLE": "Specialization Elective (10)",
+          "CREDITS": 3
+        },
+        "CourseCode5": {
+          "COURSE_TITLE": "University Elective (Cluster 3)",
+          "CREDITS": 2
+        }
+      }
+    }
+  },
+  "Data Science": {
+    "Year 1": {
+      "Semester 1": {
+        "GIG1012": {
+          "COURSE_TITLE": "Philosophy and Current Issues",
+          "CREDITS": 2,
+          "Occurrence": 11,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Wednesday",
+              "start_time": "12:00",
+              "end_time": "14:00"
+            }
+          ]
+        },
+        "WIX1001": {
+          "COURSE_TITLE": "Computing Mathematics 1",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "12:00",
+              "end_time": "14:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Wednesday",
+              "start_time": "11:00",
+              "end_time": "12:00"
+            }
+          ]
+        },
+        "WIX1002": {
+          "COURSE_TITLE": "Fundamental of Programming",
+          "CREDITS": 5,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "09:00",
+              "end_time": "11:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Thursday",
+              "start_time": "10:00",
+              "end_time": "13:00"
+            }
+          ]
+        },
+        "WIX1003": {
+          "COURSE_TITLE": "Computer Systems and Organization",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Tuesday",
+              "start_time": "10:00",
+              "end_time": "12:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Thursday",
+              "start_time": "13:00",
+              "end_time": "14:00"
+            }
+          ]
+        },
+        "WIA1001": {
+          "COURSE_TITLE": "Information Systems",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Tuesday",
+              "start_time": "12:00",
+              "end_time": "14:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Wednesday",
+              "start_time": "09:00",
+              "end_time": "10:00"
+            }
+          ]
+        }
+      },
+      "Semester 2": {
+        "GIG1013": {
+          "COURSE_TITLE": "Appreciation of Ethics and Civillizations",
+          "CREDITS": 2
+        },
+        "GIG1004": {
+          "COURSE_TITLE": "Information Literacy",
+          "CREDITS": 2
+        },
+        "GIG1005": {
+          "COURSE_TITLE": "Social Engagement",
+          "CREDITS": 2
+        },
+        "WIA1002": {
+          "COURSE_TITLE": "Data Stucture (#WIX1002)",
+          "CREDITS": 5
+        },
+        "WIA1003": {
+          "COURSE_TITLE": "Computer System Architecture (#WIX1003)",
+          "CREDITS": 3
+        },
+        "WID3006": {
+          "COURSE_TITLE": "Machine Learning",
+          "CREDITS": 4
+        },
+        "WIE2003": {
+          "COURSE_TITLE": "Introduction to Data Science",
+          "CREDITS": 3
+        }
+      }
+    },
+    "Year 2": {
+      "Semester 1": {
+        "GLT1004": {
+          "COURSE_TITLE": "Mastering English 3",
+          "CREDITS": 3,
+          "Occurrence": 2,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Wednesday",
+              "start_time": "17:00",
+              "end_time": "19:00"
+            }
+          ]
+        },
+        "GIG1003": {
+          "COURSE_TITLE": "Basic Entrepreneurship Culture",
+          "CREDITS": 2,
+          "Occurrence": 3,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Tuesday",
+              "start_time": "08:00",
+              "end_time": "10:00"
+            }
+          ]
+        },
+        "WIX2001": {
+          "COURSE_TITLE": "Thinking and Communication Skills",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "10:00",
+              "end_time": "12:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Wednesday",
+              "start_time": "16:00",
+              "end_time": "17:00"
+            }
+          ]
+        },
+        "WIX2002": {
+          "COURSE_TITLE": "Project Management",
+          "CREDITS": 3,
+          "Occurrence": 2,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "16:00",
+              "end_time": "18:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Thursday",
+              "start_time": "09:00",
+              "end_time": "10:00"
+            }
+          ]
+        },
+        "WIA2001": {
+          "COURSE_TITLE": "Database",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Monday",
+              "start_time": "14:00",
+              "end_time": "16:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Wednesday",
+              "start_time": "12:00",
+              "end_time": "13:00"
+            }
+          ]
+        },
+        "WIA2002": {
+          "COURSE_TITLE": "Software Modeling",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Tuesday",
+              "start_time": "14:00",
+              "end_time": "16:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Thursday",
+              "start_time": "10:00",
+              "end_time": "11:00"
+            }
+          ]
+        },
+        "WIA2003": {
+          "COURSE_TITLE": "Probability and Statistics",
+          "CREDITS": 3,
+          "Occurrence": 1,
+          "class_sessions":[
+            {
+              "type": "Lecture",
+              "day": "Wednesday",
+              "start_time": "10:00",
+              "end_time": "12:00"
+            },
+            {
+              "type": "Tutorial",
+              "day": "Thursday",
+              "start_time": "15:00",
+              "end_time": "16:00"
+            }
+          ]
+        }
+      },
+      "Semester 2": {
+        "CourseCode1": {
+          "COURSE_TITLE": "Co-Curriculum (1)",
+          "CREDITS": 2
+        },
+        "CourseCode2": {
+          "COURSE_TITLE": "English for Communication (2)",
+          "CREDITS": 3
+        },
+        "WIA2004": {
+          "COURSE_TITLE": "Operating Systems",
+          "CREDITS": 4
+        },
+        "WIA2005": {
+          "COURSE_TITLE": "Algorithm Design and Analysis (#WIA1002)",
+          "CREDITS": 4
+        },
+        "CourseCode3": {
+          "COURSE_TITLE": "Specialization Elective (1)",
+          "CREDITS": 3
+        },
+        "CourseCode4": {
+          "COURSE_TITLE": "Specialization Elective (2)",
+          "CREDITS": 3
+        },
+        "CourseCode5": {
+          "COURSE_TITLE": "Faculty Elective (1)",
+          "CREDITS": 3
+        }
+      }
+    },
+    "Year 3": {
+      "Semester 1": {
+        "WIH3001": {
+          "COURSE_TITLE": "Data Science Project",
+          "CREDITS": 3
+        },
+        "CourseCode1": {
+          "COURSE_TITLE": "Specialization Elective (3)",
+          "CREDITS": 3
+        },
+        "CourseCode2": {
+          "COURSE_TITLE": "Specialization Elective (4)",
+          "CREDITS": 3
+        },
+        "CourseCode3": {
+          "COURSE_TITLE": "Specialization Elective (5)",
+          "CREDITS": 3
+        },
+        "CourseCode4": {
+          "COURSE_TITLE": "Specialization Elective (6)",
+          "CREDITS": 3
+        },
+        "CourseCode5": {
+          "COURSE_TITLE": "Faculty Elective (2)",
+          "CREDITS": 3
+        },
+        "CourseCode6": {
+          "COURSE_TITLE": "External Faculty Elective",
+          "CREDITS": 2
+        }
+      },
+      "Semester 2": {
+        "WIH3002": {
+          "COURSE_TITLE": "Data Science Industrial Training",
+          "CREDITS": 14
+        }
+      }
+    },
+    "Year 4": {
+      "Semester 1": {
+        "WIA3001": {
+          "COURSE_TITLE": "Industrial Training",
+          "CREDITS": 12
+        }
+      }
+    }
+  }
+}
