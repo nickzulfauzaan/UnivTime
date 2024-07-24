@@ -93,7 +93,10 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                       FontAwesomeIcons.google,
                       color: Colors.blue,
                     ),
-                    label: Text('Sign In with Google'),
+                    label: Text(
+                      'Sign In with Google',
+                      style: TextStyle(color: Colors.black),
+                    ),
                     onPressed: () async {
                       final provider = Provider.of<GoogleSignInProvider>(
                           context,
@@ -103,8 +106,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                       // Check if authentication is successful and user is not null
                       if (provider.user != null) {
                         // Check if the email domain is valid
-                        if (provider.user.email != null &&
-                            provider.user.email!.endsWith("@siswa.um.edu.my")) {
+                        if (provider.user.email != null) {
                           Navigator.pushReplacement(
                             context,
                             MaterialPageRoute(
