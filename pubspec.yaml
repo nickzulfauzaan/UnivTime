@@ -65,10 +65,10 @@ dependencies:
   sqflite: ^2.3.0
   flutter_smart_dialog: ^4.9.6
   syncfusion_flutter_calendar: ^20.3.47
-  flutter_colorpicker: ^1.0.3
   shared_preferences: ^2.2.2
   fluttertoast: ^8.2.4
   table_calendar: ^3.0.8
+  flutter_colorpicker: ^1.1.0
 
 dev_dependencies:
   flutter_test:

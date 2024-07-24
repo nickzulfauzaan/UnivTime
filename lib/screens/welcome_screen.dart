@@ -85,8 +85,8 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                   SizedBox(height: 30.0),
                   ElevatedButton.icon(
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.white,
-                      onPrimary: Colors.black,
+                      // colo: Colors.white,
+                      // onPrimary: Colors.black,
                       minimumSize: Size(double.infinity, 50),
                     ),
                     icon: FaIcon(
