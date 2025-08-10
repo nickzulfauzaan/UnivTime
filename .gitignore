@@ -42,3 +42,17 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+# Android
+android/.gradle/
+android/local.properties
+android/app/build/
+android/build/
+android/app/.cxx/
+
+# APK / AAB
+*.apk
+*.aab
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
