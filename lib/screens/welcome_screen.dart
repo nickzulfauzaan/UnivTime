@@ -98,29 +98,29 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                       style: TextStyle(color: Colors.black),
                     ),
                     onPressed: () async {
-                      final provider = Provider.of<GoogleSignInProvider>(
-                          context,
-                          listen: false);
-                      await provider.googleLogin(context);
+                      // final provider = Provider.of<GoogleSignInProvider>(
+                      //     context,
+                      //     listen: false);
+                      // await provider.googleLogin(context);
 
-                      // Check if authentication is successful and user is not null
-                      if (provider.user != null) {
-                        // Check if the email domain is valid
-                        if (provider.user.email != null) {
-                          Navigator.pushReplacement(
-                            context,
-                            MaterialPageRoute(
-                                builder: (_) => BottomNavigationFunction()),
-                          );
-                        } else {
-                          // Show an error message or handle the case where the email is not allowed
-                          print(
-                              "Invalid email domain. Please use a valid email domain.");
-                        }
-                      } else {
-                        // Show an error message or handle the case where authentication was not successful
-                        print("Authentication failed. Please try again.");
-                      }
+                      // // Check if authentication is successful and user is not null
+                      // if (provider.user != null) {
+                      //   // Check if the email domain is valid
+                      //   if (provider.user.email != null) {
+                      Navigator.pushReplacement(
+                        context,
+                        MaterialPageRoute(
+                            builder: (_) => BottomNavigationFunction()),
+                      );
+                      //   } else {
+                      //     // Show an error message or handle the case where the email is not allowed
+                      //     print(
+                      //         "Invalid email domain. Please use a valid email domain.");
+                      //   }
+                      // } else {
+                      //   // Show an error message or handle the case where authentication was not successful
+                      //   print("Authentication failed. Please try again.");
+                      // }
                     },
                   ),
                 ],

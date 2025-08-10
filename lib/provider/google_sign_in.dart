@@ -34,15 +34,15 @@ class GoogleSignInProvider extends ChangeNotifier {
         return;
       }
 
-      // // Check if the email domain is valid
-      // if (!googleUser.email!.endsWith("@siswa.um.edu.my")) {
-      //   // Show an error message or handle the case where the email is not allowed
-      //   await _googleSignIn
-      //       .signOut(); // Explicitly sign out to allow user to choose an account again
-      //   showSnackBar(
-      //       context, "Invalid email domain. Please use your siswamail.");
-      //   return;
-      // }
+      // Check if the email domain is valid
+      if (!googleUser.email!.endsWith("@siswa.um.edu.my")) {
+        // Show an error message or handle the case where the email is not allowed
+        await _googleSignIn
+            .signOut(); // Explicitly sign out to allow user to choose an account again
+        showSnackBar(
+            context, "Invalid email domain. Please use your siswamail.");
+        return;
+      }
 
       final GoogleSignInAuthentication googleAuth =
           await googleUser.authentication;
