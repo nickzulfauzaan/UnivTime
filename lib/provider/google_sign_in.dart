@@ -1,69 +1,61 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'dart:developer' as developer;
 
 class GoogleSignInProvider extends ChangeNotifier {
-  final GoogleSignIn _googleSignIn = GoogleSignIn();
   final FirebaseAuth _auth = FirebaseAuth.instance;
 
   GoogleSignInAccount? _user;
 
-  GoogleSignInAccount get user => _user!;
+  GoogleSignInAccount? get user => _user;
 
   void showSnackBar(BuildContext context, String message) {
     final snackBar = SnackBar(
       content: Text(
         message,
-        style: TextStyle(color: Colors.black), // Set text color to black
+        style: TextStyle(color: Colors.black),
       ),
-      backgroundColor: Colors.white, // Set the background color to white
-      behavior: SnackBarBehavior.floating, // Optional: Use floating behavior
+      backgroundColor: Colors.white,
+      behavior: SnackBarBehavior.floating,
     );
     ScaffoldMessenger.of(context).showSnackBar(snackBar);
   }
 
-  Future googleLogin(BuildContext context) async {
+  Future<void> googleLogin(BuildContext context) async {
     try {
-      final GoogleSignInAccount? googleUser = await _googleSignIn.signIn();
+      final GoogleSignInAccount googleUser =
+          await GoogleSignIn.instance.authenticate();
 
-      if (googleUser == null) {
-        // User canceled the sign-in process
-        await _googleSignIn
-            .signOut(); // Explicitly sign out to allow user to choose an account again
-        showSnackBar(context, "Sign-in process canceled.");
-        return;
+      if (googleUser.email.endsWith("@siswa.um.edu.my")) {
+        final GoogleSignInAuthentication googleAuth =
+            googleUser.authentication;
+
+        final OAuthCredential credential = GoogleAuthProvider.credential(
+          idToken: googleAuth.idToken,
+        );
+
+        await _auth.signInWithCredential(credential);
+
+        _user = googleUser;
+        notifyListeners();
+      } else {
+        await GoogleSignIn.instance.disconnect();
+        if (context.mounted) {
+          showSnackBar(context, "Invalid email domain. Please use your siswamail.");
+        }
       }
-
-      // Check if the email domain is valid
-      if (!googleUser.email!.endsWith("@siswa.um.edu.my")) {
-        // Show an error message or handle the case where the email is not allowed
-        await _googleSignIn
-            .signOut(); // Explicitly sign out to allow user to choose an account again
-        showSnackBar(
-            context, "Invalid email domain. Please use your siswamail.");
-        return;
-      }
-
-      final GoogleSignInAuthentication googleAuth =
-          await googleUser.authentication;
-      final AuthCredential credential = GoogleAuthProvider.credential(
-        accessToken: googleAuth.accessToken,
-        idToken: googleAuth.idToken,
-      );
-
-      final UserCredential authResult =
-          await _auth.signInWithCredential(credential);
-      _user = googleUser;
-
-      notifyListeners();
     } catch (e) {
-      print("Error signing in with Google: $e");
-      showSnackBar(context, "Error signing in with Google. Please try again.");
+      developer.log("Error signing in with Google: $e",
+          name: 'GoogleSignIn');
+      if (context.mounted) {
+        showSnackBar(context, "Error signing in with Google. Please try again.");
+      }
     }
   }
 
-  Future logout() async {
-    await _googleSignIn.disconnect();
+  Future<void> logout() async {
+    await GoogleSignIn.instance.disconnect();
     await _auth.signOut();
     _user = null;
     notifyListeners();

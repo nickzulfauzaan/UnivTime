@@ -87,7 +87,7 @@ class Task {
 }
 
 class Checklist extends StatefulWidget {
-  const Checklist({Key? key});
+  const Checklist({super.key});
 
   @override
   State<Checklist> createState() => _ChecklistState();

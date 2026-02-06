@@ -1,8 +1,9 @@
 {
   "project_info": {
     "project_number": "204543538042",
+    "firebase_url": "https://univtime-5c468-default-rtdb.firebaseio.com",
     "project_id": "univtime-5c468",
-    "storage_bucket": "univtime-5c468.appspot.com"
+    "storage_bucket": "univtime-5c468.firebasestorage.app"
   },
   "client": [
     {
@@ -13,6 +14,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "204543538042-dk4iv0486c9p2qsj2dhv94chqv3m8m9c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.univtime",
+            "certificate_hash": "0ff649879d03c7507025eb398d97311f30cccede"
+          }
+        },
         {
           "client_id": "204543538042-kmv2eupisptb4j0gd506f8dbrhdl58ku.apps.googleusercontent.com",
           "client_type": 3

@@ -12,7 +12,7 @@ class Header extends StatelessWidget {
         SvgPicture.asset(
           "assets/icons/grad_cap.png",
           height: 70.0,
-          color: Colors.blue,
+          colorFilter: ColorFilter.mode(Colors.blue, BlendMode.srcIn),
         ),
         Text("UnivTime",
             style: TextStyle(

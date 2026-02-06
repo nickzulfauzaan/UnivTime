@@ -1,9 +1,10 @@
 import 'dart:convert';
+import 'dart:developer' as developer;
 import 'package:flutter/material.dart';
 import 'package:univtime/widgets/header.dart';
 
 class SearchModule extends StatefulWidget {
-  const SearchModule({Key? key}) : super(key: key);
+  const SearchModule({super.key});
 
   @override
   State<SearchModule> createState() => _SearchModuleState();
@@ -32,10 +33,11 @@ class _SearchModuleState extends State<SearchModule> {
           selectedCategory = jsonData.keys.elementAt(0);
         });
       } else {
-        print('Error: "data_set" is null or missing in the JSON.');
+        developer.log('Error: "data_set" is null or missing in the JSON.',
+            name: 'SearchModule');
       }
     } catch (e) {
-      print('Error loading data: $e');
+      developer.log('Error loading data: $e', name: 'SearchModule');
     }
   }
 
@@ -53,7 +55,7 @@ class _SearchModuleState extends State<SearchModule> {
         child: Column(
           children: [
             Container(
-              width: 300.0, // Adjust the width as needed
+              width: 300.0,
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(40),
@@ -89,11 +91,7 @@ class _SearchModuleState extends State<SearchModule> {
                 ),
               ),
             ),
-
             const SizedBox(height: 10),
-            // Add any additional widgets you need for your search module design
-            // ...
-
             jsonData.isEmpty
                 ? Center(
                     child: CircularProgressIndicator(

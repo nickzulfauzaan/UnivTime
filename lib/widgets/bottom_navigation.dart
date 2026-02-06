@@ -8,42 +8,45 @@ import '../screens/manage_timetable.dart';
 import '../screens/search_module.dart';
 
 class BottomNavigationFunction extends StatefulWidget {
-  const BottomNavigationFunction({Key? key}) : super(key: key);
+  const BottomNavigationFunction({super.key});
 
   @override
-  _BottomNavigationFunctionState createState() =>
-      _BottomNavigationFunctionState();
+  BottomNavigationFunctionState createState() => BottomNavigationFunctionState();
 }
 
-class _BottomNavigationFunctionState extends State<BottomNavigationFunction> {
-  int _selectedTab = 0;
-  Widget _currentPage = Container();
-  HomeScreen _homeScreen = HomeScreen();
-  SearchModule _searchModule = SearchModule();
-  ManageTimetable _manageTimetable = ManageTimetable();
-  CampusMap _campusMap = CampusMap();
-  Checklist _checklist = Checklist();
-  EventCalendar _eventCalendar = EventCalendar();
-  List<Widget> _pages = [];
+class BottomNavigationFunctionState extends State<BottomNavigationFunction> {
+  int selectedTab = 0;
+  Widget currentPage = Container();
+  late HomeScreen homeScreen;
+  late SearchModule searchModule;
+  late ManageTimetable manageTimetable;
+  late CampusMap campusMap;
+  late Checklist checklist;
+  late EventCalendar eventCalendar;
+  late List<Widget> pages;
 
   @override
   void initState() {
     super.initState();
-    _homeScreen = HomeScreen();
-    _searchModule = SearchModule();
-    _manageTimetable = ManageTimetable();
-    _campusMap = CampusMap();
-    _checklist = Checklist();
-    _eventCalendar = EventCalendar();
-    _pages = [
-      _homeScreen,
-      _searchModule,
-      _manageTimetable,
-      _campusMap,
-      _checklist,
-      _eventCalendar,
+    homeScreen = HomeScreen();
+    searchModule = SearchModule();
+    manageTimetable = ManageTimetable();
+    campusMap = CampusMap();
+    checklist = Checklist();
+    eventCalendar = EventCalendar();
+    pages = [
+      homeScreen,
+      searchModule,
+      manageTimetable,
+      campusMap,
+      checklist,
+      eventCalendar,
     ];
-    _currentPage = _homeScreen;
+    currentPage = homeScreen;
+  }
+
+  Color getIconColor(int index) {
+    return selectedTab == index ? Colors.blue : Colors.white;
   }
 
   @override
@@ -52,14 +55,14 @@ class _BottomNavigationFunctionState extends State<BottomNavigationFunction> {
       backgroundColor: Color(0xFF12171D),
       body: Stack(
         children: <Widget>[
-          _currentPage,
-          _bottomNavigator(),
+          currentPage,
+          bottomNavigator(),
         ],
       ),
     );
   }
 
-  _bottomNavigator() {
+  Widget bottomNavigator() {
     return Positioned(
       bottom: 0.0,
       right: 0.0,
@@ -74,42 +77,26 @@ class _BottomNavigationFunctionState extends State<BottomNavigationFunction> {
           backgroundColor: Color.fromARGB(255, 17, 17, 17),
           onTap: (int tab) {
             setState(() {
-              _selectedTab = tab;
+              selectedTab = tab;
               if (tab == 0 ||
                   tab == 1 ||
                   tab == 2 ||
                   tab == 3 ||
                   tab == 4 ||
                   tab == 5) {
-                _currentPage = _pages[tab];
+                currentPage = pages[tab];
               }
             });
-            // if (_selectedTab == 1) {
-            //   Navigator.push(
-            //     context,
-            //     MaterialPageRoute(builder: (_) => SearchModule()),
-            //   );
-            // } else if (_selectedTab == 2) {
-            //   Navigator.push(
-            //     context,
-            //     MaterialPageRoute(builder: (_) => ManageTimetable()),
-            //   );
-            // } else if (_selectedTab == 3) {
-            //   Navigator.push(
-            //     context,
-            //     MaterialPageRoute(builder: (_) => SubmitReview()),
-            //   );
-            // }
           },
           selectedFontSize: 7.0,
           unselectedFontSize: 7.0,
-          currentIndex: _selectedTab,
+          currentIndex: selectedTab,
           items: [
             BottomNavigationBarItem(
               icon: SvgPicture.asset(
                 "assets/icons/house.svg",
                 width: 40.0,
-                color: _selectedTab == 0 ? Colors.blue : Colors.white,
+                colorFilter: ColorFilter.mode(getIconColor(0), BlendMode.srcIn),
               ),
               label: '',
             ),
@@ -117,7 +104,7 @@ class _BottomNavigationFunctionState extends State<BottomNavigationFunction> {
               icon: SvgPicture.asset(
                 "assets/icons/search-modulesvg.svg",
                 width: 40.0,
-                color: _selectedTab == 1 ? Colors.blue : Colors.white,
+                colorFilter: ColorFilter.mode(getIconColor(1), BlendMode.srcIn),
               ),
               label: '',
             ),
@@ -125,7 +112,7 @@ class _BottomNavigationFunctionState extends State<BottomNavigationFunction> {
               icon: SvgPicture.asset(
                 "assets/icons/planning.svg",
                 width: 40.0,
-                color: _selectedTab == 2 ? Colors.blue : Colors.white,
+                colorFilter: ColorFilter.mode(getIconColor(2), BlendMode.srcIn),
               ),
               label: '',
             ),
@@ -133,7 +120,7 @@ class _BottomNavigationFunctionState extends State<BottomNavigationFunction> {
               icon: SvgPicture.asset(
                 "assets/icons/map.svg",
                 width: 40.0,
-                color: _selectedTab == 3 ? Colors.blue : Colors.white,
+                colorFilter: ColorFilter.mode(getIconColor(3), BlendMode.srcIn),
               ),
               label: '',
             ),
@@ -141,7 +128,7 @@ class _BottomNavigationFunctionState extends State<BottomNavigationFunction> {
               icon: SvgPicture.asset(
                 "assets/icons/checklist.svg",
                 width: 40.0,
-                color: _selectedTab == 4 ? Colors.blue : Colors.white,
+                colorFilter: ColorFilter.mode(getIconColor(4), BlendMode.srcIn),
               ),
               label: '',
             ),
@@ -149,7 +136,7 @@ class _BottomNavigationFunctionState extends State<BottomNavigationFunction> {
               icon: SvgPicture.asset(
                 "assets/icons/timetable.svg",
                 width: 40.0,
-                color: _selectedTab == 5 ? Colors.blue : Colors.white,
+                colorFilter: ColorFilter.mode(getIconColor(5), BlendMode.srcIn),
               ),
               label: '',
             ),

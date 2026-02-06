@@ -1,32 +1,29 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:provider/provider.dart';
-import 'package:univtime/provider/google_sign_in.dart';
 import 'package:univtime/widgets/bottom_navigation.dart';
 
-class WelcomeScreen extends StatefulWidget {
-  @override
-  _WelcomeScreenState createState() => _WelcomeScreenState();
-}
+class WelcomeScreen extends StatelessWidget {
+  const WelcomeScreen({super.key});
 
-class _WelcomeScreenState extends State<WelcomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Theme.of(context).primaryColor,
-      body: Container(
-        height: MediaQuery.of(context).size.height,
-        child: Stack(
+        body: SizedBox(
+          height: MediaQuery.of(context).size.height,
+          child: Stack(
           children: <Widget>[
-            Container(
+            SizedBox(
               height: MediaQuery.of(context).size.height - 100,
               width: MediaQuery.of(context).size.width,
-              decoration: BoxDecoration(
-                color: Theme.of(context).disabledColor,
-                borderRadius: BorderRadius.only(
-                  bottomLeft: Radius.circular(50.0),
-                  bottomRight: Radius.circular(50.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  color: Theme.of(context).disabledColor,
+                  borderRadius: BorderRadius.only(
+                    bottomLeft: Radius.circular(50.0),
+                    bottomRight: Radius.circular(50.0),
+                  ),
                 ),
               ),
             ),
@@ -37,12 +34,12 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
               child: Column(
                 children: <Widget>[
                   ClipRRect(
-                    child: SvgPicture.asset(
-                      "assets/icons/grad_cap.png",
-                      height: 180.0,
-                      width: 180.0,
-                      color: Colors.blue,
-                    ),
+                  child: SvgPicture.asset(
+                    "assets/icons/grad_cap.png",
+                    height: 180.0,
+                    width: 180.0,
+                    colorFilter: ColorFilter.mode(Colors.blue, BlendMode.srcIn),
+                  ),
                   ),
                   Text(
                     "UnivTime",
@@ -71,7 +68,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                       letterSpacing: 1.1,
                     ),
                   ),
-                  SizedBox(height: 10.0),
+                  const SizedBox(height: 10.0),
                   Text(
                     "Please sign in using your siswamail.",
                     style: TextStyle(
@@ -82,7 +79,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                     textAlign: TextAlign.center,
                     maxLines: 2,
                   ),
-                  SizedBox(height: 30.0),
+                  const SizedBox(height: 30.0),
                   ElevatedButton.icon(
                     style: ElevatedButton.styleFrom(
                       // colo: Colors.white,

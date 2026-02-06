@@ -5,6 +5,8 @@ import 'package:univtime/provider/google_sign_in.dart';
 import 'package:univtime/screens/welcome_screen.dart';
 
 class LoggedInWidget extends StatelessWidget {
+  const LoggedInWidget({super.key});
+
   @override
   Widget build(BuildContext context) {
     final user = FirebaseAuth.instance.currentUser!;
@@ -27,12 +29,12 @@ class LoggedInWidget extends StatelessWidget {
             ),
             SizedBox(height: 8),
             Text(
-              'Name: ' + user.displayName!,
+              'Name: ${user.displayName}',
               style: TextStyle(color: Colors.white, fontSize: 16),
             ),
             SizedBox(height: 8),
             Text(
-              'Email: ' + user.email!,
+              'Email: ${user.email}',
               style: TextStyle(color: Colors.white, fontSize: 16),
             ),
             SizedBox(height: 32),

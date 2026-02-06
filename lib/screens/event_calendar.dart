@@ -4,7 +4,7 @@ import 'package:syncfusion_flutter_calendar/calendar.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class EventCalendar extends StatefulWidget {
-  const EventCalendar({Key? key}) : super(key: key);
+  const EventCalendar({super.key});
 
   @override
   State<EventCalendar> createState() => _EventCalendarState();
@@ -13,7 +13,7 @@ class EventCalendar extends StatefulWidget {
 class _AddAppointmentDialog extends StatefulWidget {
   final Function(String, DateTime, TimeOfDay, TimeOfDay, Color) onSave;
 
-  _AddAppointmentDialog({required this.onSave});
+  const _AddAppointmentDialog({required this.onSave});
 
   @override
   _AddAppointmentDialogState createState() => _AddAppointmentDialogState();
@@ -212,9 +212,9 @@ class _EventCalendarState extends State<EventCalendar> {
               color: Colors.black87,
               fontSize: 14.0,
             ),
-            todayHighlightColor: Colors.blue.withOpacity(0.3),
+            todayHighlightColor: Colors.blue.withValues(alpha: 0.3),
             selectionDecoration: BoxDecoration(
-              color: Colors.blue.withOpacity(0.1),
+              color: Colors.blue.withValues(alpha: 0.1),
               border: Border.all(color: Colors.blue, width: 2.0),
               borderRadius: BorderRadius.circular(5.0),
             ),
@@ -235,11 +235,11 @@ class _EventCalendarState extends State<EventCalendar> {
             bottom: 75,
             right: 20,
             child: FloatingActionButton(
+              backgroundColor: Colors.blue,
               onPressed: () {
                 _showAddAppointmentDialog();
               },
               child: Icon(Icons.add),
-              backgroundColor: Colors.blue,
             ),
           ),
         ],
@@ -365,7 +365,7 @@ class _EventCalendarState extends State<EventCalendar> {
 
   // Convert Appointment to a serializable map
   String _serializeAppointment(Appointment appointment) {
-    return '${appointment.subject}|${appointment.startTime}|${appointment.endTime}|${appointment.color.value}';
+    return '${appointment.subject}|${appointment.startTime}|${appointment.endTime}|${appointment.color.toARGB32()}';
   }
 
   // Create Appointment from a serialized map
@@ -375,7 +375,7 @@ class _EventCalendarState extends State<EventCalendar> {
       startTime: DateTime.parse(parts[1]),
       endTime: DateTime.parse(parts[2]),
       subject: parts[0],
-      color: Color(int.parse(parts[3])),
+        color: Color(int.parse(parts[3])),
     );
   }
 }

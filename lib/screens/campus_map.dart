@@ -3,7 +3,7 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class Header extends StatelessWidget {
-  const Header({Key? key}) : super(key: key);
+  const Header({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,7 @@ class Header extends StatelessWidget {
         SvgPicture.asset(
           "assets/icons/grad_cap.png",
           height: 70.0,
-          color: Colors.blue,
+          colorFilter: ColorFilter.mode(Colors.blue, BlendMode.srcIn),
         ),
         Text(
           "UnivTime",
@@ -29,7 +29,7 @@ class Header extends StatelessWidget {
 }
 
 class CampusMap extends StatefulWidget {
-  const CampusMap({Key? key}) : super(key: key);
+  const CampusMap({super.key});
 
   @override
   State<CampusMap> createState() => _CampusMapState();

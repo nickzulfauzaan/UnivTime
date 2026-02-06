@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:developer' as developer;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -6,7 +7,7 @@ import 'package:syncfusion_flutter_calendar/calendar.dart';
 import '../widgets/header.dart';
 
 class ManageTimetable extends StatefulWidget {
-  const ManageTimetable({Key? key}) : super(key: key);
+  const ManageTimetable({super.key});
 
   @override
   State<ManageTimetable> createState() => _ManageTimetableState();
@@ -41,7 +42,7 @@ class _ManageTimetableState extends State<ManageTimetable> {
         categories = data.keys.toList();
       });
     } catch (e) {
-      print("Error loading JSON: $e");
+      developer.log("Error loading JSON: $e", name: 'ManageTimetable');
     }
   }
 
@@ -59,11 +60,10 @@ class _ManageTimetableState extends State<ManageTimetable> {
             )
           : buildCalendar(),
       floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.blue,
         onPressed: () {
-          // Show the dialog when the "Add" button is pressed
           showAddDialog(context);
         },
-        backgroundColor: Colors.blue,
         child: Icon(Icons.add),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.endDocked,
@@ -79,7 +79,7 @@ class _ManageTimetableState extends State<ManageTimetable> {
   Widget buildCalendar() {
     return SfCalendar(
       view: CalendarView.week,
-      dataSource: _getCalendarDataSource(),
+      dataSource: getCalendarDataSource(),
     );
   }
 
@@ -185,7 +185,6 @@ class _ManageTimetableState extends State<ManageTimetable> {
                             ),
                           ElevatedButton(
                             onPressed: () {
-                              // Implement your add to timetable logic here
                               addToTimetable(selectedCourses);
                               Navigator.of(context).pop();
                             },
@@ -214,29 +213,24 @@ class _ManageTimetableState extends State<ManageTimetable> {
   void addToTimetable(List<String> courses) async {
     try {
       SharedPreferences prefs = await SharedPreferences.getInstance();
-
-      // Save the selected courses to SharedPreferences
       prefs.setStringList('selectedCourses', courses);
-
-      // Update the state with the new courses
       setState(() {
         selectedCourses = List.from(courses);
       });
-
-      print('Adding courses to timetable: $selectedCourses');
+      developer.log('Adding courses to timetable: $selectedCourses', name: 'ManageTimetable');
     } catch (e) {
-      print('Error saving data to SharedPreferences: $e');
+      developer.log('Error saving data to SharedPreferences: $e', name: 'ManageTimetable');
     }
   }
 
-  _DataSource _getCalendarDataSource() {
+  CalendarDataSource getCalendarDataSource() {
     List<Appointment> appointments = [];
 
     if (selectedCourses.isNotEmpty) {
       for (var courseCode in selectedCourses) {
         var courseDetails = timetableData[selectedCategory!][selectedYear!]
             [selectedSemester!][courseCode];
-        List<dynamic> classSessions = courseDetails["class_sessions"] ?? [];
+        List<dynamic> classSessions = courseDetails["classSessions"] ?? [];
 
         for (var session in classSessions) {
           String day = session["day"];
@@ -245,19 +239,16 @@ class _ManageTimetableState extends State<ManageTimetable> {
           int endHour = int.parse(session["end_time"].split(":")[0]);
           int endMinute = int.parse(session["end_time"].split(":")[1]);
 
-          // Calculate DateTime for the next occurrence of the specified day
           DateTime nextOccurrence = DateTime.now();
-          while (nextOccurrence.weekday != _getDayOfWeek(day)) {
+          while (nextOccurrence.weekday != getDayOfWeek(day)) {
             nextOccurrence = nextOccurrence.add(Duration(days: 1));
           }
 
-          // Create DateTime objects for start and end times
           DateTime startTime = DateTime(nextOccurrence.year,
               nextOccurrence.month, nextOccurrence.day, startHour, startMinute);
           DateTime endTime = DateTime(nextOccurrence.year, nextOccurrence.month,
               nextOccurrence.day, endHour, endMinute);
 
-          // Create appointment for each class session
           appointments.add(Appointment(
             startTime: startTime,
             endTime: endTime,
@@ -268,39 +259,10 @@ class _ManageTimetableState extends State<ManageTimetable> {
       }
     }
 
-    return _DataSource(appointments);
+    return MeetingDataSource(appointments);
   }
 
-  DateTime _getDateTimeFromSession(
-    String day,
-    int hour,
-    int minute,
-  ) {
-    DateTime now = DateTime.now();
-    int currentWeekday = now.weekday;
-    int daysUntilTarget = _getDayOfWeek(day) - currentWeekday;
-
-    // If the target day has already passed this week, add 7 days
-    if (daysUntilTarget <= 0) {
-      daysUntilTarget += 7;
-    }
-
-    DateTime dateTime = DateTime.now().add(
-      Duration(days: daysUntilTarget),
-    );
-
-    dateTime = DateTime(
-      dateTime.year,
-      dateTime.month,
-      dateTime.day,
-      hour,
-      minute,
-    );
-
-    return dateTime;
-  }
-
-  int _getDayOfWeek(String day) {
+  int getDayOfWeek(String day) {
     switch (day.toLowerCase()) {
       case "sunday":
         return 0;
@@ -317,30 +279,13 @@ class _ManageTimetableState extends State<ManageTimetable> {
       case "saturday":
         return 6;
       default:
-        return 0; // Default to Sunday if day is not recognized
+        return 0;
     }
   }
 }
 
-class _DataSource extends CalendarDataSource {
-  _DataSource(List<Appointment> source) {
+class MeetingDataSource extends CalendarDataSource {
+  MeetingDataSource(List<Appointment> source) {
     appointments = source;
-  }
-}
-
-class _DynamicCalendarDataSource extends CalendarDataSource {
-  _DynamicCalendarDataSource(List<Appointment> source) {
-    appointments = source;
-  }
-
-  // Override updateAppointments to handle dynamic updates
-  void updateAppointments(List<dynamic> newAppointments) {
-    // ignore: unnecessary_null_comparison
-    if (newAppointments != null) {
-      // Add a null check before invoking clear
-      appointments?.clear();
-      appointments?.addAll(newAppointments);
-      notifyListeners(CalendarDataSourceAction.reset, newAppointments);
-    }
   }
 }
