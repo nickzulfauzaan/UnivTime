@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:univtime/widgets/header.dart';
+import 'package:univtime/utils/theme.dart';
 
 class TaskModel extends ChangeNotifier {
   List<Task> tasks = [];
@@ -13,76 +13,49 @@ class TaskModel extends ChangeNotifier {
     notifyListeners();
   }
 
-  void completeTask(int originalIndex) {
-    final index = _findFilteredIndex(originalIndex);
-    tasks[index] =
-        tasks[index].copyWith(isCompleted: !tasks[index].isCompleted);
+  void toggleTask(int index) {
+    tasks[index] = tasks[index].copyWith(isCompleted: !tasks[index].isCompleted);
     _saveTasks();
     notifyListeners();
   }
 
-  void deleteTask(int originalIndex) {
-    final index = _findFilteredIndex(originalIndex);
+  void deleteTask(int index) {
     tasks.removeAt(index);
     _saveTasks();
     notifyListeners();
   }
 
-  int _findFilteredIndex(int originalIndex) {
-    final filteredTasks = _getFilteredTasks();
-    return tasks.indexOf(filteredTasks[originalIndex]);
+  List<Task> getFilteredTasks() {
+    if (searchText.isEmpty) return tasks;
+    return tasks.where((t) => t.name.toLowerCase().contains(searchText.toLowerCase())).toList();
   }
 
-  List<Task> _getFilteredTasks() {
-    return tasks.where((task) => task.name.contains(searchText)).toList();
-  }
-
-  // Save tasks to SharedPreferences
   void _saveTasks() async {
     final prefs = await SharedPreferences.getInstance();
-    final List<String> serializedTasks = tasks
-        .map((Task task) =>
-            '${task.name}|${task.isCompleted ? 1 : 0}|${task.dueDateTime?.millisecondsSinceEpoch ?? 0}')
-        .toList();
-    prefs.setStringList('tasks', serializedTasks);
+    prefs.setStringList('tasks', tasks.map((t) => '${t.name}|${t.isCompleted ? 1 : 0}').toList());
   }
 
-  // Load tasks from SharedPreferences
   void _loadTasks() async {
     final prefs = await SharedPreferences.getInstance();
-    final List<String>? serializedTasks = prefs.getStringList('tasks');
-    if (serializedTasks != null) {
-      tasks = serializedTasks
-          .map((String serialized) => _deserializeTask(serialized))
-          .toList();
+    final data = prefs.getStringList('tasks');
+    if (data != null) {
+      tasks = data.map((s) {
+        final parts = s.split('|');
+        return Task(name: parts[0], isCompleted: parts[1] == '1');
+      }).toList();
       notifyListeners();
     }
-  }
-
-  // Convert Task to a serializable map
-  Task _deserializeTask(String serialized) {
-    final List<String> parts = serialized.split('|');
-    return Task(
-      name: parts[0],
-      isCompleted: parts[1] == '1',
-      dueDateTime: DateTime.fromMillisecondsSinceEpoch(int.parse(parts[2])),
-    );
   }
 }
 
 class Task {
   final String name;
   final bool isCompleted;
-  final DateTime? dueDateTime;
 
-  Task({required this.name, required this.isCompleted, this.dueDateTime});
+  Task({required this.name, required this.isCompleted});
 
-  Task copyWith({String? name, bool? isCompleted, DateTime? dueDateTime}) {
-    return Task(
-      name: name ?? this.name,
-      isCompleted: isCompleted ?? this.isCompleted,
-      dueDateTime: dueDateTime ?? this.dueDateTime,
-    );
+  Task copyWith({bool? isCompleted}) {
+    return Task(name: name, isCompleted: isCompleted ?? this.isCompleted);
   }
 }
 
@@ -94,148 +67,281 @@ class Checklist extends StatefulWidget {
 }
 
 class _ChecklistState extends State<Checklist> {
-  TextEditingController taskController = TextEditingController();
+  final TextEditingController _controller = TextEditingController();
+  int _filterIndex = 0;
 
   @override
   void initState() {
     super.initState();
-    // Load tasks when the widget initializes
     Provider.of<TaskModel>(context, listen: false)._loadTasks();
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFF12171D),
+      backgroundColor: AppColors.background,
       appBar: AppBar(
-        backgroundColor: Color(0xFF12171D),
-        title: Header(),
-        automaticallyImplyLeading: false,
-      ),
-      body: Container(
-        padding: EdgeInsets.symmetric(horizontal: 15),
-        child: Column(
-          children: [
-            Container(
-              decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(40),
-              ),
-              child: TextField(
-                controller: taskController,
-                style: TextStyle(
-                  color: Color.fromARGB(255, 255, 255, 255),
-                ),
-                cursorColor: Colors.black,
-                decoration: InputDecoration(
-                  border: InputBorder.none,
-                  fillColor: Theme.of(context).primaryColor,
-                  filled: true,
-                  hintText: "Add a task",
-                  hintStyle:
-                      TextStyle(color: Color.fromARGB(255, 248, 248, 248)),
-                  prefixIcon: Icon(
-                    Icons.add,
-                    color: Color.fromARGB(255, 254, 254, 254),
-                    size: 26.0,
-                  ),
-                  enabledBorder: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(30.0),
-                  ),
-                  suffixIcon: IconButton(
-                    icon: Icon(Icons.send),
-                    color: Colors.white,
-                    onPressed: () {
-                      if (taskController.text.trim().isNotEmpty) {
-                        Provider.of<TaskModel>(context, listen: false)
-                            .addTask(taskController.text);
-                        taskController.clear();
-                      }
-                    },
-                  ),
-                ),
-              ),
-            ),
-            const SizedBox(height: 10),
-            Padding(
-              padding: const EdgeInsets.symmetric(vertical: 10.0),
-              child: TextField(
-                onChanged: (value) {
-                  setState(() {
-                    Provider.of<TaskModel>(context, listen: false).searchText =
-                        value;
-                  });
-                },
-                style: TextStyle(
-                  color: Color.fromARGB(255, 255, 255, 255),
-                ),
-                cursorColor: Colors.black,
-                decoration: InputDecoration(
-                  border: InputBorder.none,
-                  fillColor: Theme.of(context).primaryColor,
-                  filled: true,
-                  hintText: "Search tasks",
-                  hintStyle:
-                      TextStyle(color: Color.fromARGB(255, 248, 248, 248)),
-                  prefixIcon: Icon(
-                    Icons.search,
-                    color: Color.fromARGB(255, 254, 254, 254),
-                    size: 26.0,
-                  ),
-                  enabledBorder: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(30.0),
-                  ),
-                ),
-              ),
-            ),
-            Expanded(
-              child: Consumer<TaskModel>(
-                builder: (context, taskModel, child) {
-                  final filteredTasks = taskModel._getFilteredTasks();
-
-                  return ListView.builder(
-                    itemCount: filteredTasks.length,
-                    itemBuilder: (context, index) {
-                      final task = filteredTasks[index];
-                      return Card(
-                        color: Colors.blue,
-                        child: ListTile(
-                          title: Row(
-                            children: [
-                              Checkbox(
-                                value: task.isCompleted,
-                                onChanged: (bool? value) {
-                                  if (value != null) {
-                                    taskModel.completeTask(index);
-                                  }
-                                },
-                                activeColor: Colors.white,
-                                checkColor:
-                                    Colors.blue, // Color of the checkmark
-                              ),
-                              Text(
-                                task.name,
-                                style: TextStyle(color: Colors.white),
-                              ),
-                            ],
-                          ),
-                          trailing: IconButton(
-                            icon: Icon(Icons.delete),
-                            color: Colors.white,
-                            onPressed: () {
-                              taskModel.deleteTask(index);
-                            },
-                          ),
-                        ),
-                      );
-                    },
-                  );
-                },
-              ),
-            ),
-          ],
+        backgroundColor: AppColors.surface,
+        elevation: 0,
+        title: const Text(
+          'Tasks',
+          style: TextStyle(
+            fontSize: 24,
+            fontWeight: FontWeight.w700,
+            color: AppColors.textPrimary,
+          ),
         ),
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.sort),
+            color: AppColors.textSecondary,
+          ),
+        ],
+      ),
+      body: Column(
+        children: [
+          _buildFilterBar(),
+          _buildAddTaskField(),
+          Expanded(child: _buildTaskList()),
+        ],
       ),
     );
+  }
+
+  Widget _buildFilterBar() {
+    final filters = ['All', 'Active', 'Completed'];
+    
+    return Container(
+      margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+      decoration: BoxDecoration(
+        color: AppColors.surface,
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(color: AppColors.divider),
+      ),
+      child: Row(
+        children: filters.asMap().entries.map((entry) {
+          final index = entry.key;
+          final label = entry.value;
+          final isSelected = _filterIndex == index;
+          
+          return Expanded(
+            child: GestureDetector(
+              onTap: () => setState(() => _filterIndex = index),
+              child: AnimatedContainer(
+                duration: const Duration(milliseconds: 200),
+                margin: const EdgeInsets.all(4),
+                padding: const EdgeInsets.symmetric(vertical: 10),
+                decoration: BoxDecoration(
+                  color: isSelected ? AppColors.primary : Colors.transparent,
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: Text(
+                  label,
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontSize: 13,
+                    fontWeight: isSelected ? FontWeight.w600 : FontWeight.w500,
+                    color: isSelected ? Colors.white : AppColors.textSecondary,
+                  ),
+                ),
+              ),
+            ),
+          );
+        }).toList(),
+      ),
+    );
+  }
+
+  Widget _buildAddTaskField() {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+      child: Row(
+        children: [
+          Expanded(
+            child: TextField(
+              controller: _controller,
+              decoration: InputDecoration(
+                filled: true,
+                fillColor: AppColors.surface,
+                hintText: 'Add a new task...',
+                hintStyle: const TextStyle(color: AppColors.textTertiary),
+                prefixIcon: const Icon(Icons.add_task, color: AppColors.primary),
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(14),
+                  borderSide: const BorderSide(color: AppColors.divider),
+                ),
+                enabledBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(14),
+                  borderSide: const BorderSide(color: AppColors.divider),
+                ),
+                focusedBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(14),
+                  borderSide: const BorderSide(color: AppColors.primary, width: 2),
+                ),
+                contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+              ),
+              onSubmitted: (_) => _addTask(),
+            ),
+          ),
+          const SizedBox(width: 12),
+          GestureDetector(
+            onTap: _addTask,
+            child: Container(
+              padding: const EdgeInsets.all(14),
+              decoration: BoxDecoration(
+                color: AppColors.primary,
+                borderRadius: BorderRadius.circular(14),
+              ),
+              child: const Icon(Icons.send, color: Colors.white, size: 22),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildTaskList() {
+    return Consumer<TaskModel>(
+      builder: (context, model, child) {
+        final tasks = _getFilteredTasks(model);
+        
+        if (tasks.isEmpty) {
+          return _buildEmptyState();
+        }
+        
+        return ListView.builder(
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+          itemCount: tasks.length,
+          itemBuilder: (context, index) {
+            final task = tasks[index];
+            final originalIndex = model.tasks.indexOf(task);
+            return _buildTaskItem(task, originalIndex, model);
+          },
+        );
+      },
+    );
+  }
+
+  List<Task> _getFilteredTasks(TaskModel model) {
+    final allTasks = model.getFilteredTasks();
+    switch (_filterIndex) {
+      case 1:
+        return allTasks.where((t) => !t.isCompleted).toList();
+      case 2:
+        return allTasks.where((t) => t.isCompleted).toList();
+      default:
+        return allTasks;
+    }
+  }
+
+  Widget _buildEmptyState() {
+    return Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Container(
+            padding: const EdgeInsets.all(20),
+            decoration: BoxDecoration(
+              color: AppColors.primary.withValues(alpha: 0.1),
+              shape: BoxShape.circle,
+            ),
+            child: Icon(
+              _filterIndex == 2 ? Icons.check_circle_outline : Icons.add_task,
+              size: 48,
+              color: AppColors.primary,
+            ),
+          ),
+          const SizedBox(height: 16),
+          Text(
+            _filterIndex == 2 
+                ? 'No completed tasks' 
+                : _filterIndex == 1 
+                    ? 'No active tasks'
+                    : 'No tasks yet',
+            style: const TextStyle(
+              fontSize: 16,
+              fontWeight: FontWeight.w600,
+              color: AppColors.textPrimary,
+            ),
+          ),
+          const SizedBox(height: 8),
+          Text(
+            'Add a task to get started',
+            style: TextStyle(fontSize: 14, color: AppColors.textSecondary),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildTaskItem(Task task, int index, TaskModel model) {
+    return Container(
+      margin: const EdgeInsets.only(bottom: 10),
+      padding: const EdgeInsets.all(14),
+      decoration: BoxDecoration(
+        color: AppColors.surface,
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(color: AppColors.divider),
+      ),
+      child: Row(
+        children: [
+          GestureDetector(
+            onTap: () => model.toggleTask(index),
+            child: Container(
+              width: 26,
+              height: 26,
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                border: Border.all(
+                  color: task.isCompleted ? AppColors.success : AppColors.divider,
+                  width: 2,
+                ),
+                color: task.isCompleted ? AppColors.success : Colors.transparent,
+              ),
+              child: task.isCompleted
+                  ? const Icon(Icons.check, size: 16, color: Colors.white)
+                  : null,
+            ),
+          ),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Text(
+              task.name,
+              style: TextStyle(
+                fontSize: 15,
+                fontWeight: FontWeight.w500,
+                color: AppColors.textPrimary,
+                decoration: task.isCompleted ? TextDecoration.lineThrough : null,
+              ),
+            ),
+          ),
+          GestureDetector(
+            onTap: () => model.deleteTask(index),
+            child: Padding(
+              padding: const EdgeInsets.all(8),
+              child: Icon(
+                Icons.delete_outline,
+                color: AppColors.textTertiary,
+                size: 22,
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _addTask() {
+    if (_controller.text.trim().isNotEmpty) {
+      Provider.of<TaskModel>(context, listen: false).addTask(_controller.text);
+      _controller.clear();
+    }
   }
 }

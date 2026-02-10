@@ -7,6 +7,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:calendar_view/calendar_view.dart';
 import 'screens/checklist.dart';
 import 'package:provider/provider.dart';
+import 'utils/theme.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -36,14 +37,8 @@ class MyApp extends StatelessWidget {
         child: MaterialApp(
           debugShowCheckedModeBanner: false,
           title: 'UnivTime',
-          theme: ThemeData(
-            primaryColor: Color(0xFF202328),
-            visualDensity: VisualDensity.adaptivePlatformDensity,
-            colorScheme:
-                ColorScheme.fromSeed(seedColor: Color.fromRGBO(0, 0, 0, 1)),
-            useMaterial3: true,
-          ),
-          home: WelcomeScreen(),
+          theme: appTheme,
+          home: const WelcomeScreen(),
         ),
       ),
     );

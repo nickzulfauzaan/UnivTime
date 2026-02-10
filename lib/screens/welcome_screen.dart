@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:univtime/widgets/bottom_navigation.dart';
+import 'package:univtime/widgets/main_navigation.dart';
+import 'package:univtime/utils/theme.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -9,122 +10,151 @@ class WelcomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Theme.of(context).primaryColor,
-        body: SizedBox(
-          height: MediaQuery.of(context).size.height,
-          child: Stack(
-          children: <Widget>[
-            SizedBox(
-              height: MediaQuery.of(context).size.height - 100,
-              width: MediaQuery.of(context).size.width,
-              child: Container(
-                decoration: BoxDecoration(
-                  color: Theme.of(context).disabledColor,
-                  borderRadius: BorderRadius.only(
-                    bottomLeft: Radius.circular(50.0),
-                    bottomRight: Radius.circular(50.0),
-                  ),
+      backgroundColor: AppColors.background,
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.all(24),
+          child: Column(
+            children: [
+              const Spacer(flex: 2),
+              _buildLogoSection(),
+              const Spacer(flex: 3),
+              _buildContentSection(context),
+              const Spacer(),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildLogoSection() {
+    return Column(
+      children: [
+        Container(
+          padding: const EdgeInsets.all(28),
+          decoration: BoxDecoration(
+            color: AppColors.primary.withValues(alpha: 0.1),
+            shape: BoxShape.circle,
+          ),
+          child: SvgPicture.asset(
+            'assets/icons/grad_cap.png',
+            height: 70,
+            width: 70,
+            colorFilter: const ColorFilter.mode(AppColors.primary, BlendMode.srcIn),
+          ),
+        ),
+        const SizedBox(height: 20),
+        const Text(
+          'UnivTime',
+          style: TextStyle(
+            fontSize: 32,
+            fontWeight: FontWeight.w800,
+            color: AppColors.textPrimary,
+            letterSpacing: -0.5,
+          ),
+        ),
+        const SizedBox(height: 8),
+        Text(
+          'Your Complete Student Companion',
+          style: TextStyle(
+            fontSize: 14,
+            color: AppColors.textSecondary,
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildContentSection(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.all(28),
+      decoration: BoxDecoration(
+        color: AppColors.surface,
+        borderRadius: BorderRadius.circular(24),
+        border: Border.all(color: AppColors.divider),
+        boxShadow: AppShadows.soft,
+      ),
+      child: Column(
+        children: [
+          const Text(
+            'Welcome Back',
+            style: TextStyle(
+              fontSize: 22,
+              fontWeight: FontWeight.w700,
+              color: AppColors.textPrimary,
+            ),
+          ),
+          const SizedBox(height: 8),
+          Text(
+            'Sign in to access your courses, schedule, and tasks',
+            style: TextStyle(
+              fontSize: 14,
+              color: AppColors.textSecondary,
+            ),
+            textAlign: TextAlign.center,
+          ),
+          const SizedBox(height: 28),
+          _buildGoogleButton(context),
+          const SizedBox(height: 20),
+          Row(
+            children: [
+              Expanded(child: Divider(color: AppColors.divider)),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16),
+                child: Text(
+                  'or',
+                  style: TextStyle(fontSize: 13, color: AppColors.textTertiary),
                 ),
               ),
-            ),
-            Positioned(
-              top: 150.0,
-              left: 100.0,
-              right: 100.0,
-              child: Column(
-                children: <Widget>[
-                  ClipRRect(
-                  child: SvgPicture.asset(
-                    "assets/icons/grad_cap.png",
-                    height: 180.0,
-                    width: 180.0,
-                    colorFilter: ColorFilter.mode(Colors.blue, BlendMode.srcIn),
-                  ),
-                  ),
-                  Text(
-                    "UnivTime",
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 32.0,
-                      fontWeight: FontWeight.bold,
-                      letterSpacing: 1.1,
-                    ),
-                  ),
-                ],
+              Expanded(child: Divider(color: AppColors.divider)),
+            ],
+          ),
+          const SizedBox(height: 20),
+          TextButton(
+            onPressed: () {},
+            child: Text(
+              'Continue as Guest',
+              style: TextStyle(
+                fontSize: 14,
+                fontWeight: FontWeight.w500,
+                color: AppColors.textSecondary,
               ),
             ),
-            Positioned(
-              bottom: 80.0,
-              left: 50.0,
-              right: 50.0,
-              child: Column(
-                children: <Widget>[
-                  Text(
-                    "Welcome",
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 29.0,
-                      fontWeight: FontWeight.bold,
-                      letterSpacing: 1.1,
-                    ),
-                  ),
-                  const SizedBox(height: 10.0),
-                  Text(
-                    "Please sign in using your siswamail.",
-                    style: TextStyle(
-                      color: Colors.grey,
-                      fontSize: 16.0,
-                      fontWeight: FontWeight.w600,
-                    ),
-                    textAlign: TextAlign.center,
-                    maxLines: 2,
-                  ),
-                  const SizedBox(height: 30.0),
-                  ElevatedButton.icon(
-                    style: ElevatedButton.styleFrom(
-                      // colo: Colors.white,
-                      // onPrimary: Colors.black,
-                      minimumSize: Size(double.infinity, 50),
-                    ),
-                    icon: FaIcon(
-                      FontAwesomeIcons.google,
-                      color: Colors.blue,
-                    ),
-                    label: Text(
-                      'Sign In with Google',
-                      style: TextStyle(color: Colors.black),
-                    ),
-                    onPressed: () async {
-                      // final provider = Provider.of<GoogleSignInProvider>(
-                      //     context,
-                      //     listen: false);
-                      // await provider.googleLogin(context);
+          ),
+        ],
+      ),
+    );
+  }
 
-                      // // Check if authentication is successful and user is not null
-                      // if (provider.user != null) {
-                      //   // Check if the email domain is valid
-                      //   if (provider.user.email != null) {
-                      Navigator.pushReplacement(
-                        context,
-                        MaterialPageRoute(
-                            builder: (_) => BottomNavigationFunction()),
-                      );
-                      //   } else {
-                      //     // Show an error message or handle the case where the email is not allowed
-                      //     print(
-                      //         "Invalid email domain. Please use a valid email domain.");
-                      //   }
-                      // } else {
-                      //   // Show an error message or handle the case where authentication was not successful
-                      //   print("Authentication failed. Please try again.");
-                      // }
-                    },
-                  ),
-                ],
-              ),
-            ),
-          ],
+  Widget _buildGoogleButton(BuildContext context) {
+    return SizedBox(
+      width: double.infinity,
+      height: 52,
+      child: ElevatedButton.icon(
+        style: ElevatedButton.styleFrom(
+          backgroundColor: AppColors.surface,
+          foregroundColor: AppColors.textPrimary,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(14),
+          ),
+          side: const BorderSide(color: AppColors.divider),
+          elevation: 0,
         ),
+        icon: const Icon(FontAwesomeIcons.google, size: 18, color: AppColors.primary),
+        label: const Text(
+          'Continue with Google',
+          style: TextStyle(
+            fontSize: 15,
+            fontWeight: FontWeight.w600,
+          ),
+        ),
+        onPressed: () {
+          Navigator.pushReplacement(
+            context,
+            MaterialPageRoute(builder: (_) => const MainNavigation()),
+          );
+        },
       ),
     );
   }
